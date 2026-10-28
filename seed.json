@@ -1,0 +1,8920 @@
+{
+  "seq": {
+    "user": 1500,
+    "category": 6,
+    "course": 60,
+    "gradeitem": 356
+  },
+  "settings": {
+    "defaultGradeTotal": "scale5"
+  },
+  "users": [
+    {
+      "id": 2,
+      "username": "ws_service",
+      "password": "Test1234!",
+      "firstname": "Servicio",
+      "lastname": "Web Services",
+      "email": "ws.service@example.com",
+      "idnumber": "",
+      "auth": "manual",
+      "suspended": 0,
+      "timecreated": 1727000000,
+      "extra": {}
+    },
+    {
+      "id": 3,
+      "username": "est1",
+      "password": "Test1234!",
+      "firstname": "Ana",
+      "lastname": "Gómez",
+      "email": "est1@example.com",
+      "idnumber": "",
+      "auth": "manual",
+      "suspended": 0,
+      "timecreated": 1727000000,
+      "extra": {}
+    },
+    {
+      "id": 4,
+      "username": "est2",
+      "password": "Test1234!",
+      "firstname": "Bruno",
+      "lastname": "Martínez",
+      "email": "est2@example.com",
+      "idnumber": "",
+      "auth": "manual",
+      "suspended": 0,
+      "timecreated": 1727000000,
+      "extra": {}
+    },
+    {
+      "id": 5,
+      "username": "est3",
+      "password": "Test1234!",
+      "firstname": "Carla",
+      "lastname": "Rodríguez",
+      "email": "est3@example.com",
+      "idnumber": "",
+      "auth": "manual",
+      "suspended": 0,
+      "timecreated": 1727000000,
+      "extra": {}
+    },
+    {
+      "id": 6,
+      "username": "est4",
+      "password": "Test1234!",
+      "firstname": "Diego",
+      "lastname": "López",
+      "email": "est4@example.com",
+      "idnumber": "",
+      "auth": "manual",
+      "suspended": 0,
+      "timecreated": 1727000000,
+      "extra": {}
+    },
+    {
+      "id": 7,
+      "username": "est5",
+      "password": "Test1234!",
+      "firstname": "Elena",
+      "lastname": "Pérez",
+      "email": "est5@example.com",
+      "idnumber": "",
+      "auth": "manual",
+      "suspended": 0,
+      "timecreated": 1727000000,
+      "extra": {}
+    },
+    {
+      "id": 8,
+      "username": "estudiante8@example.com",
+      "password": "",
+      "firstname": "Laura",
+      "lastname": "Ramírez",
+      "email": "estudiante8@example.com",
+      "idnumber": "",
+      "auth": "oauth2",
+      "suspended": 0,
+      "timecreated": 1727000000,
+      "extra": {}
+    },
+    {
+      "id": 1297,
+      "username": "estudiante1297@example.com",
+      "password": "",
+      "firstname": "Mateo",
+      "lastname": "Restrepo",
+      "email": "estudiante1297@example.com",
+      "idnumber": "",
+      "auth": "oauth2",
+      "suspended": 0,
+      "timecreated": 1727000000,
+      "extra": {}
+    },
+    {
+      "id": 1320,
+      "username": "estudiante1320@example.com",
+      "password": "",
+      "firstname": "Sofía",
+      "lastname": "Castaño",
+      "email": "estudiante1320@example.com",
+      "idnumber": "",
+      "auth": "oauth2",
+      "suspended": 0,
+      "timecreated": 1727000000,
+      "extra": {}
+    },
+    {
+      "id": 1321,
+      "username": "estudiante1321@example.com",
+      "password": "",
+      "firstname": "Samuel",
+      "lastname": "Arango",
+      "email": "estudiante1321@example.com",
+      "idnumber": "",
+      "auth": "oauth2",
+      "suspended": 0,
+      "timecreated": 1727000000,
+      "extra": {}
+    },
+    {
+      "id": 1460,
+      "username": "caso.nota432@example.com",
+      "password": "",
+      "firstname": "Caso",
+      "lastname": "Nota 4,32",
+      "email": "caso.nota432@example.com",
+      "idnumber": "",
+      "auth": "oauth2",
+      "suspended": 0,
+      "timecreated": 1727000000,
+      "extra": {}
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Miscellaneous",
+      "parent": 0,
+      "idnumber": "",
+      "description": "",
+      "visible": 1,
+      "timemodified": 1727000000
+    },
+    {
+      "id": 2,
+      "name": "Programa de Entrenadores (demo)",
+      "parent": 0,
+      "idnumber": "EXT-PROG-01",
+      "description": "Un curso por módulo.",
+      "visible": 1,
+      "timemodified": 1727000000
+    },
+    {
+      "id": 3,
+      "name": "Fútbol Sala (demo)",
+      "parent": 0,
+      "idnumber": "",
+      "description": "",
+      "visible": 1,
+      "timemodified": 1727000000
+    },
+    {
+      "id": 4,
+      "name": "Recuperaciones",
+      "parent": 0,
+      "idnumber": "",
+      "description": "Cursos de recuperación de los módulos.",
+      "visible": 1,
+      "timemodified": 1727000000
+    },
+    {
+      "id": 5,
+      "name": "Cursos obligatorios",
+      "parent": 0,
+      "idnumber": "",
+      "description": "",
+      "visible": 1,
+      "timemodified": 1727000000
+    },
+    {
+      "id": 6,
+      "name": "Pruebas de integración",
+      "parent": 0,
+      "idnumber": "",
+      "description": "Cursos para pruebas de la plataforma externa.",
+      "visible": 1,
+      "timemodified": 1727000000
+    }
+  ],
+  "courses": [
+    {
+      "id": 5,
+      "fullname": "MÓDULO 1 - PREPARACIÓN TÉCNICA",
+      "shortname": "MOD1-ANT",
+      "categoryid": 2,
+      "idnumber": "0001",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 7,
+      "fullname": "CURSO - MANEJO DE EMOCIONES EN EL DEPORTE",
+      "shortname": "EMOCIONES-ANT",
+      "categoryid": 5,
+      "idnumber": "0003",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 8,
+      "fullname": "MÓDULO 2 - PREPARACIÓN FÍSICA",
+      "shortname": "MOD2-ANT",
+      "categoryid": 2,
+      "idnumber": "0002",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 9,
+      "fullname": "MÓDULO 3 - PREPARACIÓN TÁCTICA",
+      "shortname": "MOD3-ANT",
+      "categoryid": 2,
+      "idnumber": "0004",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 10,
+      "fullname": "MÓDULO 4 - PREPARACIÓN ESPECÍFICA",
+      "shortname": "MOD4-ANT",
+      "categoryid": 2,
+      "idnumber": "0005",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 11,
+      "fullname": "MÓDULO 5 - PREPARACIÓN ESTRATÉGICA",
+      "shortname": "MOD5-ANT",
+      "categoryid": 2,
+      "idnumber": "0006",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 12,
+      "fullname": "MÓDULO 6 - PREPARACIÓN PSICOLÓGICA",
+      "shortname": "MOD6-ANT",
+      "categoryid": 2,
+      "idnumber": "0007",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 13,
+      "fullname": "MÓDULO 7 - PREPARACIÓN INTEGRAL",
+      "shortname": "MOD7-ANT",
+      "categoryid": 2,
+      "idnumber": "0008",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 14,
+      "fullname": "CURSO PREPARACIÓN TÉCNICA EN EL FÚTBOL SALA",
+      "shortname": "C-PTFS",
+      "categoryid": 3,
+      "idnumber": "0009",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 15,
+      "fullname": "CURSO PREPARACIÓN FÍSICA EN EL FÚTBOL SALA",
+      "shortname": "C-PFFS",
+      "categoryid": 3,
+      "idnumber": "C-PFFS",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 16,
+      "fullname": "EVALUACIÓN DE CRECIMIENTO FORMATIVO",
+      "shortname": "EVAL-CF",
+      "categoryid": 1,
+      "idnumber": "",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 19,
+      "fullname": "MODULO 1. PREPARACIÓN TÉCNICA",
+      "shortname": "PE-M1",
+      "categoryid": 2,
+      "idnumber": "00000000-0000-4000-8000-000000000101",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 20,
+      "fullname": "MODULO 2. PREPARACIÓN FÍSICA",
+      "shortname": "PE-M2",
+      "categoryid": 2,
+      "idnumber": "00000000-0000-4000-8000-000000000102",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 21,
+      "fullname": "MODULO 3. PREPARACIÓN TÁCTICA",
+      "shortname": "PE-M3",
+      "categoryid": 2,
+      "idnumber": "00000000-0000-4000-8000-000000000103",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 22,
+      "fullname": "MODULO 4. PREPARACIÓN ESPECÍFICA",
+      "shortname": "PE-M4",
+      "categoryid": 2,
+      "idnumber": "00000000-0000-4000-8000-000000000104",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 23,
+      "fullname": "MODULO 5. PREPARACIÓN ESTRATÉGICA",
+      "shortname": "PE-M5",
+      "categoryid": 2,
+      "idnumber": "00000000-0000-4000-8000-000000000105",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 24,
+      "fullname": "MODULO 6. PREPARACIÓN PSICOLÓGICA",
+      "shortname": "PE-M6",
+      "categoryid": 2,
+      "idnumber": "00000000-0000-4000-8000-000000000106",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 25,
+      "fullname": "MODULO 7. PREPARACIÓN INTEGRAL",
+      "shortname": "PE-M7",
+      "categoryid": 2,
+      "idnumber": "00000000-0000-4000-8000-000000000107",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 27,
+      "fullname": "MODULO 1. PREPARACIÓN TÉCNICA - FS",
+      "shortname": "FS-M1",
+      "categoryid": 3,
+      "idnumber": "M01FS",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 28,
+      "fullname": "MODULO 2. PREPARACIÓN FÍSICA - FS",
+      "shortname": "FS-M2",
+      "categoryid": 3,
+      "idnumber": "M02FS",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 29,
+      "fullname": "MODULO 3. PREPARACIÓN TÁCTICA - FS",
+      "shortname": "FS-M3",
+      "categoryid": 3,
+      "idnumber": "M03FS",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 30,
+      "fullname": "MODULO 4. PREPARACIÓN ESPECÍFICA - FS",
+      "shortname": "FS-M4",
+      "categoryid": 3,
+      "idnumber": "M04FS",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 31,
+      "fullname": "MODULO 5. PREPARACIÓN ESTRATÉGICA - FS",
+      "shortname": "FS-M5",
+      "categoryid": 3,
+      "idnumber": "M05FS",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 32,
+      "fullname": "MODULO 6. PREPARACIÓN PSICOLÓGICA - FS",
+      "shortname": "FS-M6",
+      "categoryid": 3,
+      "idnumber": "M06FS",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 33,
+      "fullname": "MODULO 7. PREPARACIÓN INTEGRAL - FS",
+      "shortname": "FS-M7",
+      "categoryid": 3,
+      "idnumber": "M07FS",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 34,
+      "fullname": "CURSO OBLIGATORIO DE CONVIVENCIA EN EL DEPORTE",
+      "shortname": "OBLIGATORIO",
+      "categoryid": 5,
+      "idnumber": "00000000-0000-4000-8000-000000000201",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 36,
+      "fullname": "RECUPERACIÓN MÓDULO 1 PREPARACIÓN TÉCNICA",
+      "shortname": "REC-M1",
+      "categoryid": 4,
+      "idnumber": "00000000-0000-4000-8000-000000000301",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 37,
+      "fullname": "EVALUACIÓN DE CRECIMIENTO FORMATIVO (2)",
+      "shortname": "EVAL-CF-2",
+      "categoryid": 1,
+      "idnumber": "",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 39,
+      "fullname": "RECUPERACIÓN MÓDULO 2 PREPARACIÓN FÍSICA",
+      "shortname": "REC-M2",
+      "categoryid": 4,
+      "idnumber": "",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 40,
+      "fullname": "RECUPERACIÓN MÓDULO 3 PREPARACIÓN TÁCTICA",
+      "shortname": "REC-M3",
+      "categoryid": 4,
+      "idnumber": "",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 41,
+      "fullname": "RECUPERACIÓN MÓDULO 4 PREPARACIÓN ESPECÍFICA",
+      "shortname": "REC-M4",
+      "categoryid": 4,
+      "idnumber": "",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 42,
+      "fullname": "RECUPERACIÓN MÓDULO 5 PREPARACIÓN ESTRATÉGICA",
+      "shortname": "REC-M5",
+      "categoryid": 4,
+      "idnumber": "",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 43,
+      "fullname": "RECUPERACIÓN MÓDULO 6 PREPARACIÓN PSICOLÓGICA",
+      "shortname": "REC-M6",
+      "categoryid": 4,
+      "idnumber": "",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 50,
+      "fullname": "[PRUEBA] Modulo 1",
+      "shortname": "PRUEBA-M1",
+      "categoryid": 6,
+      "idnumber": "00000000-0000-4000-8000-000000000401",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 51,
+      "fullname": "[PRUEBA] Modulo 2",
+      "shortname": "PRUEBA-M2",
+      "categoryid": 6,
+      "idnumber": "00000000-0000-4000-8000-000000000402",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 52,
+      "fullname": "[PRUEBA] Modulo 3",
+      "shortname": "PRUEBA-M3",
+      "categoryid": 6,
+      "idnumber": "00000000-0000-4000-8000-000000000403",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 53,
+      "fullname": "[PRUEBA] Modulo 4",
+      "shortname": "PRUEBA-M4",
+      "categoryid": 6,
+      "idnumber": "00000000-0000-4000-8000-000000000404",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    },
+    {
+      "id": 54,
+      "fullname": "Prueba Modulo Moodle",
+      "shortname": "PRUEBA-MOODLE",
+      "categoryid": 6,
+      "idnumber": "00000000-0000-4000-8000-000000000405",
+      "summary": "",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000,
+      "gradetotal": "scale5"
+    }
+  ],
+  "enrolments": [
+    {
+      "userid": 3,
+      "courseid": 19,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 3,
+      "courseid": 20,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 3,
+      "courseid": 21,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 3,
+      "courseid": 22,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 3,
+      "courseid": 23,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 3,
+      "courseid": 24,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 3,
+      "courseid": 25,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 3,
+      "courseid": 34,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 4,
+      "courseid": 19,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 4,
+      "courseid": 20,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 4,
+      "courseid": 21,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 4,
+      "courseid": 22,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 4,
+      "courseid": 23,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 4,
+      "courseid": 24,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 4,
+      "courseid": 25,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 4,
+      "courseid": 40,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 5,
+      "courseid": 19,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 5,
+      "courseid": 20,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 5,
+      "courseid": 21,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 5,
+      "courseid": 22,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 5,
+      "courseid": 23,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 5,
+      "courseid": 24,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 5,
+      "courseid": 25,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 6,
+      "courseid": 19,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 6,
+      "courseid": 20,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 6,
+      "courseid": 21,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 6,
+      "courseid": 22,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 6,
+      "courseid": 23,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 6,
+      "courseid": 24,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 6,
+      "courseid": 25,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 7,
+      "courseid": 19,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 7,
+      "courseid": 20,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 7,
+      "courseid": 21,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 7,
+      "courseid": 22,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 7,
+      "courseid": 23,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 7,
+      "courseid": 25,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 7,
+      "courseid": 34,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 1320,
+      "courseid": 19,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 1320,
+      "courseid": 20,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 1320,
+      "courseid": 21,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 1320,
+      "courseid": 22,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 1320,
+      "courseid": 23,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 1320,
+      "courseid": 24,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 1297,
+      "courseid": 19,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 1297,
+      "courseid": 20,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 1297,
+      "courseid": 21,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 1297,
+      "courseid": 22,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 1297,
+      "courseid": 23,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 1297,
+      "courseid": 24,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 8,
+      "courseid": 50,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 8,
+      "courseid": 51,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 8,
+      "courseid": 52,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 8,
+      "courseid": 53,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 1321,
+      "courseid": 54,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 1460,
+      "courseid": 20,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    }
+  ],
+  "gradeitems": [
+    {
+      "id": 1,
+      "courseid": 5,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 5,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 2,
+      "courseid": 5,
+      "itemname": "TALLER UNIDAD 1 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 2,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 3,
+      "courseid": 5,
+      "itemname": "EVALUACIÓN UNIDAD 1 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 3,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 4,
+      "courseid": 5,
+      "itemname": "TALLER UNIDAD 2 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 4,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 4,
+      "gradepass": 3
+    },
+    {
+      "id": 5,
+      "courseid": 5,
+      "itemname": "EVALUACIÓN UNIDAD 2 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 5,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 5,
+      "gradepass": 3
+    },
+    {
+      "id": 6,
+      "courseid": 5,
+      "itemname": "TALLER UNIDAD 3 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 6,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 6,
+      "gradepass": 3
+    },
+    {
+      "id": 7,
+      "courseid": 5,
+      "itemname": "EVALUACIÓN UNIDAD 3 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 7,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 7,
+      "gradepass": 3
+    },
+    {
+      "id": 8,
+      "courseid": 5,
+      "itemname": "TALLER UNIDAD 4 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 8,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 8,
+      "gradepass": 3
+    },
+    {
+      "id": 9,
+      "courseid": 5,
+      "itemname": "EVALUACIÓN UNIDAD 4 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 9,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 9,
+      "gradepass": 3
+    },
+    {
+      "id": 10,
+      "courseid": 5,
+      "itemname": "EXAMEN FINAL MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 10,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 10,
+      "gradepass": 3
+    },
+    {
+      "id": 11,
+      "courseid": 5,
+      "itemname": "PARTICIPACIÓN UNIDAD 1",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 11,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 11,
+      "hidden": true
+    },
+    {
+      "id": 12,
+      "courseid": 5,
+      "itemname": "PARTICIPACIÓN UNIDAD 2",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 12,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 12,
+      "hidden": true
+    },
+    {
+      "id": 13,
+      "courseid": 5,
+      "itemname": "PARTICIPACIÓN UNIDAD 3",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 13,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 13,
+      "hidden": true
+    },
+    {
+      "id": 14,
+      "courseid": 5,
+      "itemname": "PARTICIPACIÓN UNIDAD 4",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 14,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 14,
+      "hidden": true
+    },
+    {
+      "id": 15,
+      "courseid": 7,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 7,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 16,
+      "courseid": 7,
+      "itemname": "TALLER 1",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 16,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 17,
+      "courseid": 7,
+      "itemname": "TALLER 2",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 17,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 18,
+      "courseid": 7,
+      "itemname": "EVALUACIÓN FINAL",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 18,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 4,
+      "gradepass": 3
+    },
+    {
+      "id": 19,
+      "courseid": 8,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 8,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 20,
+      "courseid": 8,
+      "itemname": "TALLER UNIDAD 1 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 20,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 21,
+      "courseid": 8,
+      "itemname": "EVALUACIÓN UNIDAD 1 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 21,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 22,
+      "courseid": 8,
+      "itemname": "TALLER UNIDAD 2 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 22,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 4,
+      "gradepass": 3
+    },
+    {
+      "id": 23,
+      "courseid": 8,
+      "itemname": "EVALUACIÓN UNIDAD 2 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 23,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 5,
+      "gradepass": 3
+    },
+    {
+      "id": 24,
+      "courseid": 8,
+      "itemname": "TALLER UNIDAD 3 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 24,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 6,
+      "gradepass": 3
+    },
+    {
+      "id": 25,
+      "courseid": 8,
+      "itemname": "EVALUACIÓN UNIDAD 3 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 25,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 7,
+      "gradepass": 3
+    },
+    {
+      "id": 26,
+      "courseid": 8,
+      "itemname": "TALLER UNIDAD 4 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 26,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 8,
+      "gradepass": 3
+    },
+    {
+      "id": 27,
+      "courseid": 8,
+      "itemname": "EVALUACIÓN UNIDAD 4 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 27,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 9,
+      "gradepass": 3
+    },
+    {
+      "id": 28,
+      "courseid": 8,
+      "itemname": "EXAMEN FINAL MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 28,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 10,
+      "gradepass": 3
+    },
+    {
+      "id": 29,
+      "courseid": 8,
+      "itemname": "PARTICIPACIÓN UNIDAD 1",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 29,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 11,
+      "hidden": true
+    },
+    {
+      "id": 30,
+      "courseid": 8,
+      "itemname": "PARTICIPACIÓN UNIDAD 2",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 30,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 12,
+      "hidden": true
+    },
+    {
+      "id": 31,
+      "courseid": 8,
+      "itemname": "PARTICIPACIÓN UNIDAD 3",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 31,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 13,
+      "hidden": true
+    },
+    {
+      "id": 32,
+      "courseid": 8,
+      "itemname": "PARTICIPACIÓN UNIDAD 4",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 32,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 14,
+      "hidden": true
+    },
+    {
+      "id": 33,
+      "courseid": 9,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 9,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 34,
+      "courseid": 9,
+      "itemname": "TALLER UNIDAD 1 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 34,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 35,
+      "courseid": 9,
+      "itemname": "EVALUACIÓN UNIDAD 1 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 35,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 36,
+      "courseid": 9,
+      "itemname": "TALLER UNIDAD 2 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 36,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 4,
+      "gradepass": 3
+    },
+    {
+      "id": 37,
+      "courseid": 9,
+      "itemname": "EVALUACIÓN UNIDAD 2 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 37,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 5,
+      "gradepass": 3
+    },
+    {
+      "id": 38,
+      "courseid": 9,
+      "itemname": "TALLER UNIDAD 3 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 38,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 6,
+      "gradepass": 3
+    },
+    {
+      "id": 39,
+      "courseid": 9,
+      "itemname": "EVALUACIÓN UNIDAD 3 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 39,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 7,
+      "gradepass": 3
+    },
+    {
+      "id": 40,
+      "courseid": 9,
+      "itemname": "TALLER UNIDAD 4 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 40,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 8,
+      "gradepass": 3
+    },
+    {
+      "id": 41,
+      "courseid": 9,
+      "itemname": "EVALUACIÓN UNIDAD 4 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 41,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 9,
+      "gradepass": 3
+    },
+    {
+      "id": 42,
+      "courseid": 9,
+      "itemname": "EXAMEN FINAL MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 42,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 10,
+      "gradepass": 3
+    },
+    {
+      "id": 43,
+      "courseid": 9,
+      "itemname": "PARTICIPACIÓN UNIDAD 1",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 43,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 11,
+      "hidden": true
+    },
+    {
+      "id": 44,
+      "courseid": 9,
+      "itemname": "PARTICIPACIÓN UNIDAD 2",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 44,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 12,
+      "hidden": true
+    },
+    {
+      "id": 45,
+      "courseid": 9,
+      "itemname": "PARTICIPACIÓN UNIDAD 3",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 45,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 13,
+      "hidden": true
+    },
+    {
+      "id": 46,
+      "courseid": 9,
+      "itemname": "PARTICIPACIÓN UNIDAD 4",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 46,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 14,
+      "hidden": true
+    },
+    {
+      "id": 47,
+      "courseid": 10,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 10,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 48,
+      "courseid": 10,
+      "itemname": "TALLER UNIDAD 1 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 48,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 49,
+      "courseid": 10,
+      "itemname": "EVALUACIÓN UNIDAD 1 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 49,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 50,
+      "courseid": 10,
+      "itemname": "TALLER UNIDAD 2 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 50,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 4,
+      "gradepass": 3
+    },
+    {
+      "id": 51,
+      "courseid": 10,
+      "itemname": "EVALUACIÓN UNIDAD 2 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 51,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 5,
+      "gradepass": 3
+    },
+    {
+      "id": 52,
+      "courseid": 10,
+      "itemname": "TALLER UNIDAD 3 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 52,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 6,
+      "gradepass": 3
+    },
+    {
+      "id": 53,
+      "courseid": 10,
+      "itemname": "EVALUACIÓN UNIDAD 3 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 53,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 7,
+      "gradepass": 3
+    },
+    {
+      "id": 54,
+      "courseid": 10,
+      "itemname": "TALLER UNIDAD 4 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 54,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 8,
+      "gradepass": 3
+    },
+    {
+      "id": 55,
+      "courseid": 10,
+      "itemname": "EVALUACIÓN UNIDAD 4 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 55,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 9,
+      "gradepass": 3
+    },
+    {
+      "id": 56,
+      "courseid": 10,
+      "itemname": "EXAMEN FINAL MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 56,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 10,
+      "gradepass": 3
+    },
+    {
+      "id": 57,
+      "courseid": 10,
+      "itemname": "PARTICIPACIÓN UNIDAD 1",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 57,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 11,
+      "hidden": true
+    },
+    {
+      "id": 58,
+      "courseid": 10,
+      "itemname": "PARTICIPACIÓN UNIDAD 2",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 58,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 12,
+      "hidden": true
+    },
+    {
+      "id": 59,
+      "courseid": 10,
+      "itemname": "PARTICIPACIÓN UNIDAD 3",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 59,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 13,
+      "hidden": true
+    },
+    {
+      "id": 60,
+      "courseid": 10,
+      "itemname": "PARTICIPACIÓN UNIDAD 4",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 60,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 14,
+      "hidden": true
+    },
+    {
+      "id": 61,
+      "courseid": 11,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 11,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 62,
+      "courseid": 11,
+      "itemname": "TALLER UNIDAD 1 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 62,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 63,
+      "courseid": 11,
+      "itemname": "EVALUACIÓN UNIDAD 1 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 63,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 64,
+      "courseid": 11,
+      "itemname": "TALLER UNIDAD 2 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 64,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 4,
+      "gradepass": 3
+    },
+    {
+      "id": 65,
+      "courseid": 11,
+      "itemname": "EVALUACIÓN UNIDAD 2 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 65,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 5,
+      "gradepass": 3
+    },
+    {
+      "id": 66,
+      "courseid": 11,
+      "itemname": "TALLER UNIDAD 3 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 66,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 6,
+      "gradepass": 3
+    },
+    {
+      "id": 67,
+      "courseid": 11,
+      "itemname": "EVALUACIÓN UNIDAD 3 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 67,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 7,
+      "gradepass": 3
+    },
+    {
+      "id": 68,
+      "courseid": 11,
+      "itemname": "TALLER UNIDAD 4 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 68,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 8,
+      "gradepass": 3
+    },
+    {
+      "id": 69,
+      "courseid": 11,
+      "itemname": "EVALUACIÓN UNIDAD 4 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 69,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 9,
+      "gradepass": 3
+    },
+    {
+      "id": 70,
+      "courseid": 11,
+      "itemname": "EXAMEN FINAL MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 70,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 10,
+      "gradepass": 3
+    },
+    {
+      "id": 71,
+      "courseid": 11,
+      "itemname": "PARTICIPACIÓN UNIDAD 1",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 71,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 11,
+      "hidden": true
+    },
+    {
+      "id": 72,
+      "courseid": 11,
+      "itemname": "PARTICIPACIÓN UNIDAD 2",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 72,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 12,
+      "hidden": true
+    },
+    {
+      "id": 73,
+      "courseid": 11,
+      "itemname": "PARTICIPACIÓN UNIDAD 3",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 73,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 13,
+      "hidden": true
+    },
+    {
+      "id": 74,
+      "courseid": 11,
+      "itemname": "PARTICIPACIÓN UNIDAD 4",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 74,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 14,
+      "hidden": true
+    },
+    {
+      "id": 75,
+      "courseid": 12,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 12,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 76,
+      "courseid": 12,
+      "itemname": "TALLER UNIDAD 1 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 76,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 77,
+      "courseid": 12,
+      "itemname": "EVALUACIÓN UNIDAD 1 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 77,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 78,
+      "courseid": 12,
+      "itemname": "TALLER UNIDAD 2 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 78,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 4,
+      "gradepass": 3
+    },
+    {
+      "id": 79,
+      "courseid": 12,
+      "itemname": "EVALUACIÓN UNIDAD 2 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 79,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 5,
+      "gradepass": 3
+    },
+    {
+      "id": 80,
+      "courseid": 12,
+      "itemname": "TALLER UNIDAD 3 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 80,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 6,
+      "gradepass": 3
+    },
+    {
+      "id": 81,
+      "courseid": 12,
+      "itemname": "EVALUACIÓN UNIDAD 3 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 81,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 7,
+      "gradepass": 3
+    },
+    {
+      "id": 82,
+      "courseid": 12,
+      "itemname": "TALLER UNIDAD 4 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 82,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 8,
+      "gradepass": 3
+    },
+    {
+      "id": 83,
+      "courseid": 12,
+      "itemname": "EVALUACIÓN UNIDAD 4 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 83,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 9,
+      "gradepass": 3
+    },
+    {
+      "id": 84,
+      "courseid": 12,
+      "itemname": "EXAMEN FINAL MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 84,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 10,
+      "gradepass": 3
+    },
+    {
+      "id": 85,
+      "courseid": 12,
+      "itemname": "PARTICIPACIÓN UNIDAD 1",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 85,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 11,
+      "hidden": true
+    },
+    {
+      "id": 86,
+      "courseid": 12,
+      "itemname": "PARTICIPACIÓN UNIDAD 2",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 86,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 12,
+      "hidden": true
+    },
+    {
+      "id": 87,
+      "courseid": 12,
+      "itemname": "PARTICIPACIÓN UNIDAD 3",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 87,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 13,
+      "hidden": true
+    },
+    {
+      "id": 88,
+      "courseid": 12,
+      "itemname": "PARTICIPACIÓN UNIDAD 4",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 88,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 14,
+      "hidden": true
+    },
+    {
+      "id": 89,
+      "courseid": 13,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 13,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 90,
+      "courseid": 13,
+      "itemname": "TALLER UNIDAD 1 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 90,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 91,
+      "courseid": 13,
+      "itemname": "EVALUACIÓN UNIDAD 1 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 91,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 92,
+      "courseid": 13,
+      "itemname": "TALLER UNIDAD 2 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 92,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 4,
+      "gradepass": 3
+    },
+    {
+      "id": 93,
+      "courseid": 13,
+      "itemname": "EVALUACIÓN UNIDAD 2 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 93,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 5,
+      "gradepass": 3
+    },
+    {
+      "id": 94,
+      "courseid": 13,
+      "itemname": "TALLER UNIDAD 3 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 94,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 6,
+      "gradepass": 3
+    },
+    {
+      "id": 95,
+      "courseid": 13,
+      "itemname": "EVALUACIÓN UNIDAD 3 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 95,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 7,
+      "gradepass": 3
+    },
+    {
+      "id": 96,
+      "courseid": 13,
+      "itemname": "TALLER UNIDAD 4 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 96,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 8,
+      "gradepass": 3
+    },
+    {
+      "id": 97,
+      "courseid": 13,
+      "itemname": "EVALUACIÓN UNIDAD 4 MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 97,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 9,
+      "gradepass": 3
+    },
+    {
+      "id": 98,
+      "courseid": 13,
+      "itemname": "EXAMEN FINAL MODULO ",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 98,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 10,
+      "gradepass": 3
+    },
+    {
+      "id": 99,
+      "courseid": 13,
+      "itemname": "PARTICIPACIÓN UNIDAD 1",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 99,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 11,
+      "hidden": true
+    },
+    {
+      "id": 100,
+      "courseid": 13,
+      "itemname": "PARTICIPACIÓN UNIDAD 2",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 100,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 12,
+      "hidden": true
+    },
+    {
+      "id": 101,
+      "courseid": 13,
+      "itemname": "PARTICIPACIÓN UNIDAD 3",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 101,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 13,
+      "hidden": true
+    },
+    {
+      "id": 102,
+      "courseid": 13,
+      "itemname": "PARTICIPACIÓN UNIDAD 4",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 102,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 14,
+      "hidden": true
+    },
+    {
+      "id": 103,
+      "courseid": 14,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 14,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 104,
+      "courseid": 14,
+      "itemname": "TALLER 1",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 104,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 105,
+      "courseid": 14,
+      "itemname": "TALLER 2",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 105,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 106,
+      "courseid": 14,
+      "itemname": "EVALUACIÓN FINAL",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 106,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 4,
+      "gradepass": 3
+    },
+    {
+      "id": 107,
+      "courseid": 15,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 15,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 108,
+      "courseid": 15,
+      "itemname": "TALLER 1",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 108,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 109,
+      "courseid": 15,
+      "itemname": "TALLER 2",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 109,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 110,
+      "courseid": 15,
+      "itemname": "EVALUACIÓN FINAL",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 110,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 4,
+      "gradepass": 3
+    },
+    {
+      "id": 111,
+      "courseid": 16,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 16,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 112,
+      "courseid": 16,
+      "itemname": "TALLER 1",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 112,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 113,
+      "courseid": 16,
+      "itemname": "TALLER 2",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 113,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 114,
+      "courseid": 16,
+      "itemname": "EVALUACIÓN FINAL",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 114,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 4,
+      "gradepass": 3
+    },
+    {
+      "id": 115,
+      "courseid": 19,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 19,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 116,
+      "courseid": 19,
+      "itemname": "TALLER UNIDAD 1 MODULO 1",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 116,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 117,
+      "courseid": 19,
+      "itemname": "EVALUACIÓN UNIDAD 1 MODULO 1",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 117,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 118,
+      "courseid": 19,
+      "itemname": "TALLER UNIDAD 2 MODULO 1",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 118,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 4,
+      "gradepass": 3
+    },
+    {
+      "id": 119,
+      "courseid": 19,
+      "itemname": "EVALUACIÓN UNIDAD 2 MODULO 1",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 119,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 5,
+      "gradepass": 3
+    },
+    {
+      "id": 120,
+      "courseid": 19,
+      "itemname": "TALLER UNIDAD 3 MODULO 1",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 120,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 6,
+      "gradepass": 3
+    },
+    {
+      "id": 121,
+      "courseid": 19,
+      "itemname": "EVALUACIÓN UNIDAD 3 MODULO 1",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 121,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 7,
+      "gradepass": 3
+    },
+    {
+      "id": 122,
+      "courseid": 19,
+      "itemname": "TALLER UNIDAD 4 MODULO 1",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 122,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 8,
+      "gradepass": 3
+    },
+    {
+      "id": 123,
+      "courseid": 19,
+      "itemname": "EVALUACIÓN UNIDAD 4 MODULO 1",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 123,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 9,
+      "gradepass": 3
+    },
+    {
+      "id": 124,
+      "courseid": 19,
+      "itemname": "EXAMEN FINAL MODULO 1",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 124,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 10,
+      "gradepass": 3
+    },
+    {
+      "id": 125,
+      "courseid": 19,
+      "itemname": "PARTICIPACIÓN UNIDAD 1",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 125,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 11,
+      "hidden": true
+    },
+    {
+      "id": 126,
+      "courseid": 19,
+      "itemname": "PARTICIPACIÓN UNIDAD 2",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 126,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 12,
+      "hidden": true
+    },
+    {
+      "id": 127,
+      "courseid": 19,
+      "itemname": "PARTICIPACIÓN UNIDAD 3",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 127,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 13,
+      "hidden": true
+    },
+    {
+      "id": 128,
+      "courseid": 19,
+      "itemname": "PARTICIPACIÓN UNIDAD 4",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 128,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 14,
+      "hidden": true
+    },
+    {
+      "id": 129,
+      "courseid": 20,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 20,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 130,
+      "courseid": 20,
+      "itemname": "TALLER UNIDAD 1 MODULO 2",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 130,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 131,
+      "courseid": 20,
+      "itemname": "EVALUACIÓN UNIDAD 1 MODULO 2",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 131,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 132,
+      "courseid": 20,
+      "itemname": "TALLER UNIDAD 2 MODULO 2",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 132,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 4,
+      "gradepass": 3
+    },
+    {
+      "id": 133,
+      "courseid": 20,
+      "itemname": "EVALUACIÓN UNIDAD 2 MODULO 2",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 133,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 5,
+      "gradepass": 3
+    },
+    {
+      "id": 134,
+      "courseid": 20,
+      "itemname": "TALLER UNIDAD 3 MODULO 2",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 134,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 6,
+      "gradepass": 3
+    },
+    {
+      "id": 135,
+      "courseid": 20,
+      "itemname": "EVALUACIÓN UNIDAD 3 MODULO 2",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 135,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 7,
+      "gradepass": 3
+    },
+    {
+      "id": 136,
+      "courseid": 20,
+      "itemname": "TALLER UNIDAD 4 MODULO 2",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 136,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 8,
+      "gradepass": 3
+    },
+    {
+      "id": 137,
+      "courseid": 20,
+      "itemname": "EVALUACIÓN UNIDAD 4 MODULO 2",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 137,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 9,
+      "gradepass": 3
+    },
+    {
+      "id": 138,
+      "courseid": 20,
+      "itemname": "EXAMEN FINAL MODULO 2",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 138,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 10,
+      "gradepass": 3
+    },
+    {
+      "id": 139,
+      "courseid": 20,
+      "itemname": "PARTICIPACIÓN UNIDAD 1",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 139,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 11,
+      "hidden": true
+    },
+    {
+      "id": 140,
+      "courseid": 20,
+      "itemname": "PARTICIPACIÓN UNIDAD 2",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 140,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 12,
+      "hidden": true
+    },
+    {
+      "id": 141,
+      "courseid": 20,
+      "itemname": "PARTICIPACIÓN UNIDAD 3",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 141,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 13,
+      "hidden": true
+    },
+    {
+      "id": 142,
+      "courseid": 20,
+      "itemname": "PARTICIPACIÓN UNIDAD 4",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 142,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 14,
+      "hidden": true
+    },
+    {
+      "id": 143,
+      "courseid": 21,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 21,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 144,
+      "courseid": 21,
+      "itemname": "TALLER UNIDAD 1 MODULO 3",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 144,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 145,
+      "courseid": 21,
+      "itemname": "EVALUACIÓN UNIDAD 1 MODULO 3",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 145,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 146,
+      "courseid": 21,
+      "itemname": "TALLER UNIDAD 2 MODULO 3",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 146,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 4,
+      "gradepass": 3
+    },
+    {
+      "id": 147,
+      "courseid": 21,
+      "itemname": "EVALUACIÓN UNIDAD 2 MODULO 3",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 147,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 5,
+      "gradepass": 3
+    },
+    {
+      "id": 148,
+      "courseid": 21,
+      "itemname": "TALLER UNIDAD 3 MODULO 3",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 148,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 6,
+      "gradepass": 3
+    },
+    {
+      "id": 149,
+      "courseid": 21,
+      "itemname": "EVALUACIÓN UNIDAD 3 MODULO 3",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 149,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 7,
+      "gradepass": 3
+    },
+    {
+      "id": 150,
+      "courseid": 21,
+      "itemname": "TALLER UNIDAD 4 MODULO 3",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 150,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 8,
+      "gradepass": 3
+    },
+    {
+      "id": 151,
+      "courseid": 21,
+      "itemname": "EVALUACIÓN UNIDAD 4 MODULO 3",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 151,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 9,
+      "gradepass": 3
+    },
+    {
+      "id": 152,
+      "courseid": 21,
+      "itemname": "EXAMEN FINAL MODULO 3",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 152,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 10,
+      "gradepass": 3
+    },
+    {
+      "id": 153,
+      "courseid": 21,
+      "itemname": "PARTICIPACIÓN UNIDAD 1",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 153,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 11,
+      "hidden": true
+    },
+    {
+      "id": 154,
+      "courseid": 21,
+      "itemname": "PARTICIPACIÓN UNIDAD 2",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 154,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 12,
+      "hidden": true
+    },
+    {
+      "id": 155,
+      "courseid": 21,
+      "itemname": "PARTICIPACIÓN UNIDAD 3",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 155,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 13,
+      "hidden": true
+    },
+    {
+      "id": 156,
+      "courseid": 21,
+      "itemname": "PARTICIPACIÓN UNIDAD 4",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 156,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 14,
+      "hidden": true
+    },
+    {
+      "id": 157,
+      "courseid": 22,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 22,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 158,
+      "courseid": 22,
+      "itemname": "TALLER UNIDAD 1 MODULO 4",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 158,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 159,
+      "courseid": 22,
+      "itemname": "EVALUACIÓN UNIDAD 1 MODULO 4",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 159,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 160,
+      "courseid": 22,
+      "itemname": "TALLER UNIDAD 2 MODULO 4",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 160,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 4,
+      "gradepass": 3
+    },
+    {
+      "id": 161,
+      "courseid": 22,
+      "itemname": "EVALUACIÓN UNIDAD 2 MODULO 4",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 161,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 5,
+      "gradepass": 3
+    },
+    {
+      "id": 162,
+      "courseid": 22,
+      "itemname": "TALLER UNIDAD 3 MODULO 4",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 162,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 6,
+      "gradepass": 3
+    },
+    {
+      "id": 163,
+      "courseid": 22,
+      "itemname": "EVALUACIÓN UNIDAD 3 MODULO 4",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 163,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 7,
+      "gradepass": 3
+    },
+    {
+      "id": 164,
+      "courseid": 22,
+      "itemname": "TALLER UNIDAD 4 MODULO 4",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 164,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 8,
+      "gradepass": 3
+    },
+    {
+      "id": 165,
+      "courseid": 22,
+      "itemname": "EVALUACIÓN UNIDAD 4 MODULO 4",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 165,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 9,
+      "gradepass": 3
+    },
+    {
+      "id": 166,
+      "courseid": 22,
+      "itemname": "EXAMEN FINAL MODULO 4",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 166,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 10,
+      "gradepass": 3
+    },
+    {
+      "id": 167,
+      "courseid": 22,
+      "itemname": "PARTICIPACIÓN UNIDAD 1",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 167,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 11,
+      "hidden": true
+    },
+    {
+      "id": 168,
+      "courseid": 22,
+      "itemname": "PARTICIPACIÓN UNIDAD 2",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 168,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 12,
+      "hidden": true
+    },
+    {
+      "id": 169,
+      "courseid": 22,
+      "itemname": "PARTICIPACIÓN UNIDAD 3",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 169,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 13,
+      "hidden": true
+    },
+    {
+      "id": 170,
+      "courseid": 22,
+      "itemname": "PARTICIPACIÓN UNIDAD 4",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 170,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 14,
+      "hidden": true
+    },
+    {
+      "id": 171,
+      "courseid": 23,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 23,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 172,
+      "courseid": 23,
+      "itemname": "TALLER UNIDAD 1 MODULO 5",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 172,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 173,
+      "courseid": 23,
+      "itemname": "EVALUACIÓN UNIDAD 1 MODULO 5",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 173,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 174,
+      "courseid": 23,
+      "itemname": "TALLER UNIDAD 2 MODULO 5",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 174,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 4,
+      "gradepass": 3
+    },
+    {
+      "id": 175,
+      "courseid": 23,
+      "itemname": "EVALUACIÓN UNIDAD 2 MODULO 5",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 175,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 5,
+      "gradepass": 3
+    },
+    {
+      "id": 176,
+      "courseid": 23,
+      "itemname": "TALLER UNIDAD 3 MODULO 5",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 176,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 6,
+      "gradepass": 3
+    },
+    {
+      "id": 177,
+      "courseid": 23,
+      "itemname": "EVALUACIÓN UNIDAD 3 MODULO 5",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 177,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 7,
+      "gradepass": 3
+    },
+    {
+      "id": 178,
+      "courseid": 23,
+      "itemname": "TALLER UNIDAD 4 MODULO 5",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 178,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 8,
+      "gradepass": 3
+    },
+    {
+      "id": 179,
+      "courseid": 23,
+      "itemname": "EVALUACIÓN UNIDAD 4 MODULO 5",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 179,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 9,
+      "gradepass": 3
+    },
+    {
+      "id": 180,
+      "courseid": 23,
+      "itemname": "EXAMEN FINAL MODULO 5",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 180,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 10,
+      "gradepass": 3
+    },
+    {
+      "id": 181,
+      "courseid": 23,
+      "itemname": "PARTICIPACIÓN UNIDAD 1",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 181,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 11,
+      "hidden": true
+    },
+    {
+      "id": 182,
+      "courseid": 23,
+      "itemname": "PARTICIPACIÓN UNIDAD 2",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 182,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 12,
+      "hidden": true
+    },
+    {
+      "id": 183,
+      "courseid": 23,
+      "itemname": "PARTICIPACIÓN UNIDAD 3",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 183,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 13,
+      "hidden": true
+    },
+    {
+      "id": 184,
+      "courseid": 23,
+      "itemname": "PARTICIPACIÓN UNIDAD 4",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 184,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 14,
+      "hidden": true
+    },
+    {
+      "id": 185,
+      "courseid": 24,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 24,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 186,
+      "courseid": 24,
+      "itemname": "TALLER UNIDAD 1 MODULO 6",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 186,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 187,
+      "courseid": 24,
+      "itemname": "EVALUACIÓN UNIDAD 1 MODULO 6",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 187,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 188,
+      "courseid": 24,
+      "itemname": "TALLER UNIDAD 2 MODULO 6",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 188,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 4,
+      "gradepass": 3
+    },
+    {
+      "id": 189,
+      "courseid": 24,
+      "itemname": "EVALUACIÓN UNIDAD 2 MODULO 6",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 189,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 5,
+      "gradepass": 3
+    },
+    {
+      "id": 190,
+      "courseid": 24,
+      "itemname": "TALLER UNIDAD 3 MODULO 6",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 190,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 6,
+      "gradepass": 3
+    },
+    {
+      "id": 191,
+      "courseid": 24,
+      "itemname": "EVALUACIÓN UNIDAD 3 MODULO 6",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 191,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 7,
+      "gradepass": 3
+    },
+    {
+      "id": 192,
+      "courseid": 24,
+      "itemname": "TALLER UNIDAD 4 MODULO 6",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 192,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 8,
+      "gradepass": 3
+    },
+    {
+      "id": 193,
+      "courseid": 24,
+      "itemname": "EVALUACIÓN UNIDAD 4 MODULO 6",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 193,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 9,
+      "gradepass": 3
+    },
+    {
+      "id": 194,
+      "courseid": 24,
+      "itemname": "EXAMEN FINAL MODULO 6",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 194,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 10,
+      "gradepass": 3
+    },
+    {
+      "id": 195,
+      "courseid": 24,
+      "itemname": "PARTICIPACIÓN UNIDAD 1",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 195,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 11,
+      "hidden": true
+    },
+    {
+      "id": 196,
+      "courseid": 24,
+      "itemname": "PARTICIPACIÓN UNIDAD 2",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 196,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 12,
+      "hidden": true
+    },
+    {
+      "id": 197,
+      "courseid": 24,
+      "itemname": "PARTICIPACIÓN UNIDAD 3",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 197,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 13,
+      "hidden": true
+    },
+    {
+      "id": 198,
+      "courseid": 24,
+      "itemname": "PARTICIPACIÓN UNIDAD 4",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 198,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 14,
+      "hidden": true
+    },
+    {
+      "id": 199,
+      "courseid": 25,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 25,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 200,
+      "courseid": 25,
+      "itemname": "TALLER UNIDAD 1 MODULO 7",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 200,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 201,
+      "courseid": 25,
+      "itemname": "EVALUACIÓN UNIDAD 1 MODULO 7",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 201,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 202,
+      "courseid": 25,
+      "itemname": "TALLER UNIDAD 2 MODULO 7",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 202,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 4,
+      "gradepass": 3
+    },
+    {
+      "id": 203,
+      "courseid": 25,
+      "itemname": "EVALUACIÓN UNIDAD 2 MODULO 7",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 203,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 5,
+      "gradepass": 3
+    },
+    {
+      "id": 204,
+      "courseid": 25,
+      "itemname": "TALLER UNIDAD 3 MODULO 7",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 204,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 6,
+      "gradepass": 3
+    },
+    {
+      "id": 205,
+      "courseid": 25,
+      "itemname": "EVALUACIÓN UNIDAD 3 MODULO 7",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 205,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 7,
+      "gradepass": 3
+    },
+    {
+      "id": 206,
+      "courseid": 25,
+      "itemname": "TALLER UNIDAD 4 MODULO 7",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 206,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 8,
+      "gradepass": 3
+    },
+    {
+      "id": 207,
+      "courseid": 25,
+      "itemname": "EVALUACIÓN UNIDAD 4 MODULO 7",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 207,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 9,
+      "gradepass": 3
+    },
+    {
+      "id": 208,
+      "courseid": 25,
+      "itemname": "EXAMEN FINAL MODULO 7",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 208,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 10,
+      "gradepass": 3
+    },
+    {
+      "id": 209,
+      "courseid": 25,
+      "itemname": "PARTICIPACIÓN UNIDAD 1",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 209,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 11,
+      "hidden": true
+    },
+    {
+      "id": 210,
+      "courseid": 25,
+      "itemname": "PARTICIPACIÓN UNIDAD 2",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 210,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 12,
+      "hidden": true
+    },
+    {
+      "id": 211,
+      "courseid": 25,
+      "itemname": "PARTICIPACIÓN UNIDAD 3",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 211,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 13,
+      "hidden": true
+    },
+    {
+      "id": 212,
+      "courseid": 25,
+      "itemname": "PARTICIPACIÓN UNIDAD 4",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 212,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 14,
+      "hidden": true
+    },
+    {
+      "id": 213,
+      "courseid": 27,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 27,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 214,
+      "courseid": 27,
+      "itemname": "TALLER UNIDAD 1 MODULO 1",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 214,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 215,
+      "courseid": 27,
+      "itemname": "EVALUACIÓN UNIDAD 1 MODULO 1",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 215,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 216,
+      "courseid": 27,
+      "itemname": "TALLER UNIDAD 2 MODULO 1",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 216,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 4,
+      "gradepass": 3
+    },
+    {
+      "id": 217,
+      "courseid": 27,
+      "itemname": "EVALUACIÓN UNIDAD 2 MODULO 1",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 217,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 5,
+      "gradepass": 3
+    },
+    {
+      "id": 218,
+      "courseid": 27,
+      "itemname": "TALLER UNIDAD 3 MODULO 1",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 218,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 6,
+      "gradepass": 3
+    },
+    {
+      "id": 219,
+      "courseid": 27,
+      "itemname": "EVALUACIÓN UNIDAD 3 MODULO 1",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 219,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 7,
+      "gradepass": 3
+    },
+    {
+      "id": 220,
+      "courseid": 27,
+      "itemname": "TALLER UNIDAD 4 MODULO 1",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 220,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 8,
+      "gradepass": 3
+    },
+    {
+      "id": 221,
+      "courseid": 27,
+      "itemname": "EVALUACIÓN UNIDAD 4 MODULO 1",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 221,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 9,
+      "gradepass": 3
+    },
+    {
+      "id": 222,
+      "courseid": 27,
+      "itemname": "EXAMEN FINAL MODULO 1",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 222,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 10,
+      "gradepass": 3
+    },
+    {
+      "id": 223,
+      "courseid": 27,
+      "itemname": "PARTICIPACIÓN UNIDAD 1",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 223,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 11,
+      "hidden": true
+    },
+    {
+      "id": 224,
+      "courseid": 27,
+      "itemname": "PARTICIPACIÓN UNIDAD 2",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 224,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 12,
+      "hidden": true
+    },
+    {
+      "id": 225,
+      "courseid": 27,
+      "itemname": "PARTICIPACIÓN UNIDAD 3",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 225,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 13,
+      "hidden": true
+    },
+    {
+      "id": 226,
+      "courseid": 27,
+      "itemname": "PARTICIPACIÓN UNIDAD 4",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 226,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 14,
+      "hidden": true
+    },
+    {
+      "id": 227,
+      "courseid": 28,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 28,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 228,
+      "courseid": 28,
+      "itemname": "TALLER UNIDAD 1 MODULO 2",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 228,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 229,
+      "courseid": 28,
+      "itemname": "EVALUACIÓN UNIDAD 1 MODULO 2",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 229,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 230,
+      "courseid": 28,
+      "itemname": "TALLER UNIDAD 2 MODULO 2",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 230,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 4,
+      "gradepass": 3
+    },
+    {
+      "id": 231,
+      "courseid": 28,
+      "itemname": "EVALUACIÓN UNIDAD 2 MODULO 2",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 231,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 5,
+      "gradepass": 3
+    },
+    {
+      "id": 232,
+      "courseid": 28,
+      "itemname": "TALLER UNIDAD 3 MODULO 2",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 232,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 6,
+      "gradepass": 3
+    },
+    {
+      "id": 233,
+      "courseid": 28,
+      "itemname": "EVALUACIÓN UNIDAD 3 MODULO 2",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 233,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 7,
+      "gradepass": 3
+    },
+    {
+      "id": 234,
+      "courseid": 28,
+      "itemname": "TALLER UNIDAD 4 MODULO 2",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 234,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 8,
+      "gradepass": 3
+    },
+    {
+      "id": 235,
+      "courseid": 28,
+      "itemname": "EVALUACIÓN UNIDAD 4 MODULO 2",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 235,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 9,
+      "gradepass": 3
+    },
+    {
+      "id": 236,
+      "courseid": 28,
+      "itemname": "EXAMEN FINAL MODULO 2",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 236,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 10,
+      "gradepass": 3
+    },
+    {
+      "id": 237,
+      "courseid": 28,
+      "itemname": "PARTICIPACIÓN UNIDAD 1",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 237,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 11,
+      "hidden": true
+    },
+    {
+      "id": 238,
+      "courseid": 28,
+      "itemname": "PARTICIPACIÓN UNIDAD 2",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 238,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 12,
+      "hidden": true
+    },
+    {
+      "id": 239,
+      "courseid": 28,
+      "itemname": "PARTICIPACIÓN UNIDAD 3",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 239,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 13,
+      "hidden": true
+    },
+    {
+      "id": 240,
+      "courseid": 28,
+      "itemname": "PARTICIPACIÓN UNIDAD 4",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 240,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 14,
+      "hidden": true
+    },
+    {
+      "id": 241,
+      "courseid": 29,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 29,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 242,
+      "courseid": 29,
+      "itemname": "TALLER UNIDAD 1 MODULO 3",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 242,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 243,
+      "courseid": 29,
+      "itemname": "EVALUACIÓN UNIDAD 1 MODULO 3",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 243,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 244,
+      "courseid": 29,
+      "itemname": "TALLER UNIDAD 2 MODULO 3",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 244,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 4,
+      "gradepass": 3
+    },
+    {
+      "id": 245,
+      "courseid": 29,
+      "itemname": "EVALUACIÓN UNIDAD 2 MODULO 3",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 245,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 5,
+      "gradepass": 3
+    },
+    {
+      "id": 246,
+      "courseid": 29,
+      "itemname": "TALLER UNIDAD 3 MODULO 3",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 246,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 6,
+      "gradepass": 3
+    },
+    {
+      "id": 247,
+      "courseid": 29,
+      "itemname": "EVALUACIÓN UNIDAD 3 MODULO 3",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 247,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 7,
+      "gradepass": 3
+    },
+    {
+      "id": 248,
+      "courseid": 29,
+      "itemname": "TALLER UNIDAD 4 MODULO 3",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 248,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 8,
+      "gradepass": 3
+    },
+    {
+      "id": 249,
+      "courseid": 29,
+      "itemname": "EVALUACIÓN UNIDAD 4 MODULO 3",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 249,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 9,
+      "gradepass": 3
+    },
+    {
+      "id": 250,
+      "courseid": 29,
+      "itemname": "EXAMEN FINAL MODULO 3",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 250,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 10,
+      "gradepass": 3
+    },
+    {
+      "id": 251,
+      "courseid": 29,
+      "itemname": "PARTICIPACIÓN UNIDAD 1",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 251,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 11,
+      "hidden": true
+    },
+    {
+      "id": 252,
+      "courseid": 29,
+      "itemname": "PARTICIPACIÓN UNIDAD 2",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 252,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 12,
+      "hidden": true
+    },
+    {
+      "id": 253,
+      "courseid": 29,
+      "itemname": "PARTICIPACIÓN UNIDAD 3",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 253,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 13,
+      "hidden": true
+    },
+    {
+      "id": 254,
+      "courseid": 29,
+      "itemname": "PARTICIPACIÓN UNIDAD 4",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 254,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 14,
+      "hidden": true
+    },
+    {
+      "id": 255,
+      "courseid": 30,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 30,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 256,
+      "courseid": 30,
+      "itemname": "TALLER UNIDAD 1 MODULO 4",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 256,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 257,
+      "courseid": 30,
+      "itemname": "EVALUACIÓN UNIDAD 1 MODULO 4",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 257,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 258,
+      "courseid": 30,
+      "itemname": "TALLER UNIDAD 2 MODULO 4",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 258,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 4,
+      "gradepass": 3
+    },
+    {
+      "id": 259,
+      "courseid": 30,
+      "itemname": "EVALUACIÓN UNIDAD 2 MODULO 4",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 259,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 5,
+      "gradepass": 3
+    },
+    {
+      "id": 260,
+      "courseid": 30,
+      "itemname": "TALLER UNIDAD 3 MODULO 4",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 260,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 6,
+      "gradepass": 3
+    },
+    {
+      "id": 261,
+      "courseid": 30,
+      "itemname": "EVALUACIÓN UNIDAD 3 MODULO 4",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 261,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 7,
+      "gradepass": 3
+    },
+    {
+      "id": 262,
+      "courseid": 30,
+      "itemname": "TALLER UNIDAD 4 MODULO 4",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 262,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 8,
+      "gradepass": 3
+    },
+    {
+      "id": 263,
+      "courseid": 30,
+      "itemname": "EVALUACIÓN UNIDAD 4 MODULO 4",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 263,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 9,
+      "gradepass": 3
+    },
+    {
+      "id": 264,
+      "courseid": 30,
+      "itemname": "EXAMEN FINAL MODULO 4",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 264,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 10,
+      "gradepass": 3
+    },
+    {
+      "id": 265,
+      "courseid": 30,
+      "itemname": "PARTICIPACIÓN UNIDAD 1",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 265,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 11,
+      "hidden": true
+    },
+    {
+      "id": 266,
+      "courseid": 30,
+      "itemname": "PARTICIPACIÓN UNIDAD 2",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 266,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 12,
+      "hidden": true
+    },
+    {
+      "id": 267,
+      "courseid": 30,
+      "itemname": "PARTICIPACIÓN UNIDAD 3",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 267,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 13,
+      "hidden": true
+    },
+    {
+      "id": 268,
+      "courseid": 30,
+      "itemname": "PARTICIPACIÓN UNIDAD 4",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 268,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 14,
+      "hidden": true
+    },
+    {
+      "id": 269,
+      "courseid": 31,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 31,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 270,
+      "courseid": 31,
+      "itemname": "TALLER UNIDAD 1 MODULO 5",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 270,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 271,
+      "courseid": 31,
+      "itemname": "EVALUACIÓN UNIDAD 1 MODULO 5",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 271,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 272,
+      "courseid": 31,
+      "itemname": "TALLER UNIDAD 2 MODULO 5",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 272,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 4,
+      "gradepass": 3
+    },
+    {
+      "id": 273,
+      "courseid": 31,
+      "itemname": "EVALUACIÓN UNIDAD 2 MODULO 5",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 273,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 5,
+      "gradepass": 3
+    },
+    {
+      "id": 274,
+      "courseid": 31,
+      "itemname": "TALLER UNIDAD 3 MODULO 5",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 274,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 6,
+      "gradepass": 3
+    },
+    {
+      "id": 275,
+      "courseid": 31,
+      "itemname": "EVALUACIÓN UNIDAD 3 MODULO 5",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 275,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 7,
+      "gradepass": 3
+    },
+    {
+      "id": 276,
+      "courseid": 31,
+      "itemname": "TALLER UNIDAD 4 MODULO 5",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 276,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 8,
+      "gradepass": 3
+    },
+    {
+      "id": 277,
+      "courseid": 31,
+      "itemname": "EVALUACIÓN UNIDAD 4 MODULO 5",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 277,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 9,
+      "gradepass": 3
+    },
+    {
+      "id": 278,
+      "courseid": 31,
+      "itemname": "EXAMEN FINAL MODULO 5",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 278,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 10,
+      "gradepass": 3
+    },
+    {
+      "id": 279,
+      "courseid": 31,
+      "itemname": "PARTICIPACIÓN UNIDAD 1",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 279,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 11,
+      "hidden": true
+    },
+    {
+      "id": 280,
+      "courseid": 31,
+      "itemname": "PARTICIPACIÓN UNIDAD 2",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 280,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 12,
+      "hidden": true
+    },
+    {
+      "id": 281,
+      "courseid": 31,
+      "itemname": "PARTICIPACIÓN UNIDAD 3",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 281,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 13,
+      "hidden": true
+    },
+    {
+      "id": 282,
+      "courseid": 31,
+      "itemname": "PARTICIPACIÓN UNIDAD 4",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 282,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 14,
+      "hidden": true
+    },
+    {
+      "id": 283,
+      "courseid": 32,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 32,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 284,
+      "courseid": 32,
+      "itemname": "TALLER UNIDAD 1 MODULO 6",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 284,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 285,
+      "courseid": 32,
+      "itemname": "EVALUACIÓN UNIDAD 1 MODULO 6",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 285,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 286,
+      "courseid": 32,
+      "itemname": "TALLER UNIDAD 2 MODULO 6",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 286,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 4,
+      "gradepass": 3
+    },
+    {
+      "id": 287,
+      "courseid": 32,
+      "itemname": "EVALUACIÓN UNIDAD 2 MODULO 6",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 287,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 5,
+      "gradepass": 3
+    },
+    {
+      "id": 288,
+      "courseid": 32,
+      "itemname": "TALLER UNIDAD 3 MODULO 6",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 288,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 6,
+      "gradepass": 3
+    },
+    {
+      "id": 289,
+      "courseid": 32,
+      "itemname": "EVALUACIÓN UNIDAD 3 MODULO 6",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 289,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 7,
+      "gradepass": 3
+    },
+    {
+      "id": 290,
+      "courseid": 32,
+      "itemname": "TALLER UNIDAD 4 MODULO 6",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 290,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 8,
+      "gradepass": 3
+    },
+    {
+      "id": 291,
+      "courseid": 32,
+      "itemname": "EVALUACIÓN UNIDAD 4 MODULO 6",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 291,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 9,
+      "gradepass": 3
+    },
+    {
+      "id": 292,
+      "courseid": 32,
+      "itemname": "EXAMEN FINAL MODULO 6",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 292,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 10,
+      "gradepass": 3
+    },
+    {
+      "id": 293,
+      "courseid": 32,
+      "itemname": "PARTICIPACIÓN UNIDAD 1",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 293,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 11,
+      "hidden": true
+    },
+    {
+      "id": 294,
+      "courseid": 32,
+      "itemname": "PARTICIPACIÓN UNIDAD 2",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 294,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 12,
+      "hidden": true
+    },
+    {
+      "id": 295,
+      "courseid": 32,
+      "itemname": "PARTICIPACIÓN UNIDAD 3",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 295,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 13,
+      "hidden": true
+    },
+    {
+      "id": 296,
+      "courseid": 32,
+      "itemname": "PARTICIPACIÓN UNIDAD 4",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 296,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 14,
+      "hidden": true
+    },
+    {
+      "id": 297,
+      "courseid": 33,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 33,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 298,
+      "courseid": 33,
+      "itemname": "TALLER UNIDAD 1 MODULO 7",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 298,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 299,
+      "courseid": 33,
+      "itemname": "EVALUACIÓN UNIDAD 1 MODULO 7",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 299,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 300,
+      "courseid": 33,
+      "itemname": "TALLER UNIDAD 2 MODULO 7",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 300,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 4,
+      "gradepass": 3
+    },
+    {
+      "id": 301,
+      "courseid": 33,
+      "itemname": "EVALUACIÓN UNIDAD 2 MODULO 7",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 301,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 5,
+      "gradepass": 3
+    },
+    {
+      "id": 302,
+      "courseid": 33,
+      "itemname": "TALLER UNIDAD 3 MODULO 7",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 302,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 6,
+      "gradepass": 3
+    },
+    {
+      "id": 303,
+      "courseid": 33,
+      "itemname": "EVALUACIÓN UNIDAD 3 MODULO 7",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 303,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 7,
+      "gradepass": 3
+    },
+    {
+      "id": 304,
+      "courseid": 33,
+      "itemname": "TALLER UNIDAD 4 MODULO 7",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 304,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 8,
+      "gradepass": 3
+    },
+    {
+      "id": 305,
+      "courseid": 33,
+      "itemname": "EVALUACIÓN UNIDAD 4 MODULO 7",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 305,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 9,
+      "gradepass": 3
+    },
+    {
+      "id": 306,
+      "courseid": 33,
+      "itemname": "EXAMEN FINAL MODULO 7",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 306,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 10,
+      "gradepass": 3
+    },
+    {
+      "id": 307,
+      "courseid": 33,
+      "itemname": "PARTICIPACIÓN UNIDAD 1",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 307,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 11,
+      "hidden": true
+    },
+    {
+      "id": 308,
+      "courseid": 33,
+      "itemname": "PARTICIPACIÓN UNIDAD 2",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 308,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 12,
+      "hidden": true
+    },
+    {
+      "id": 309,
+      "courseid": 33,
+      "itemname": "PARTICIPACIÓN UNIDAD 3",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 309,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 13,
+      "hidden": true
+    },
+    {
+      "id": 310,
+      "courseid": 33,
+      "itemname": "PARTICIPACIÓN UNIDAD 4",
+      "itemtype": "mod",
+      "itemmodule": "forum",
+      "iteminstance": 310,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 14,
+      "hidden": true
+    },
+    {
+      "id": 311,
+      "courseid": 34,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 34,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 312,
+      "courseid": 34,
+      "itemname": "TALLER 1",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 312,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 313,
+      "courseid": 34,
+      "itemname": "TALLER 2",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 313,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 314,
+      "courseid": 34,
+      "itemname": "EVALUACIÓN FINAL",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 314,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 4,
+      "gradepass": 3
+    },
+    {
+      "id": 315,
+      "courseid": 36,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 36,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 316,
+      "courseid": 36,
+      "itemname": "TALLER DE RECUPERACIÓN",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 316,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 317,
+      "courseid": 36,
+      "itemname": "EXAMEN DE RECUPERACIÓN",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 317,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 318,
+      "courseid": 37,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 37,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 319,
+      "courseid": 37,
+      "itemname": "TALLER 1",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 319,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 320,
+      "courseid": 37,
+      "itemname": "TALLER 2",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 320,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 321,
+      "courseid": 37,
+      "itemname": "EVALUACIÓN FINAL",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 321,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 4,
+      "gradepass": 3
+    },
+    {
+      "id": 322,
+      "courseid": 39,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 39,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 323,
+      "courseid": 39,
+      "itemname": "TALLER DE RECUPERACIÓN",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 323,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 324,
+      "courseid": 39,
+      "itemname": "EXAMEN DE RECUPERACIÓN",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 324,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 325,
+      "courseid": 40,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 40,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 326,
+      "courseid": 40,
+      "itemname": "TALLER DE RECUPERACIÓN",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 326,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 327,
+      "courseid": 40,
+      "itemname": "EXAMEN DE RECUPERACIÓN",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 327,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 328,
+      "courseid": 41,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 41,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 329,
+      "courseid": 41,
+      "itemname": "TALLER DE RECUPERACIÓN",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 329,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 330,
+      "courseid": 41,
+      "itemname": "EXAMEN DE RECUPERACIÓN",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 330,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 331,
+      "courseid": 42,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 42,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 332,
+      "courseid": 42,
+      "itemname": "TALLER DE RECUPERACIÓN",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 332,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 333,
+      "courseid": 42,
+      "itemname": "EXAMEN DE RECUPERACIÓN",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 333,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 334,
+      "courseid": 43,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 43,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 335,
+      "courseid": 43,
+      "itemname": "TALLER DE RECUPERACIÓN",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 335,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 336,
+      "courseid": 43,
+      "itemname": "EXAMEN DE RECUPERACIÓN",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 336,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 337,
+      "courseid": 50,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 50,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 338,
+      "courseid": 50,
+      "itemname": "TALLER 1",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 338,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 339,
+      "courseid": 50,
+      "itemname": "TALLER 2",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 339,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 340,
+      "courseid": 50,
+      "itemname": "EVALUACIÓN FINAL",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 340,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 4,
+      "gradepass": 3
+    },
+    {
+      "id": 341,
+      "courseid": 51,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 51,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 342,
+      "courseid": 51,
+      "itemname": "TALLER 1",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 342,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 343,
+      "courseid": 51,
+      "itemname": "TALLER 2",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 343,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 344,
+      "courseid": 51,
+      "itemname": "EVALUACIÓN FINAL",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 344,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 4,
+      "gradepass": 3
+    },
+    {
+      "id": 345,
+      "courseid": 52,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 52,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 346,
+      "courseid": 52,
+      "itemname": "TALLER 1",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 346,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 347,
+      "courseid": 52,
+      "itemname": "TALLER 2",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 347,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 348,
+      "courseid": 52,
+      "itemname": "EVALUACIÓN FINAL",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 348,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 4,
+      "gradepass": 3
+    },
+    {
+      "id": 349,
+      "courseid": 53,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 53,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 350,
+      "courseid": 53,
+      "itemname": "TALLER 1",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 350,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 351,
+      "courseid": 53,
+      "itemname": "TALLER 2",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 351,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 352,
+      "courseid": 53,
+      "itemname": "EVALUACIÓN FINAL",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 352,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 4,
+      "gradepass": 3
+    },
+    {
+      "id": 353,
+      "courseid": 54,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 54,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 354,
+      "courseid": 54,
+      "itemname": "TALLER 1",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 354,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 2,
+      "gradepass": 3
+    },
+    {
+      "id": 355,
+      "courseid": 54,
+      "itemname": "TALLER 2",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 355,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 3,
+      "gradepass": 3
+    },
+    {
+      "id": 356,
+      "courseid": 54,
+      "itemname": "EVALUACIÓN FINAL",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 356,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 5,
+      "sortorder": 4,
+      "gradepass": 3
+    }
+  ],
+  "grades": [
+    {
+      "itemid": 116,
+      "userid": 3,
+      "graderaw": 4.4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 117,
+      "userid": 3,
+      "graderaw": 4.6,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 118,
+      "userid": 3,
+      "graderaw": 4.4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 119,
+      "userid": 3,
+      "graderaw": 4.6,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 120,
+      "userid": 3,
+      "graderaw": 4.4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 121,
+      "userid": 3,
+      "graderaw": 4.6,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 122,
+      "userid": 3,
+      "graderaw": 4.4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 123,
+      "userid": 3,
+      "graderaw": 4.6,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 124,
+      "userid": 3,
+      "graderaw": 4.4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 130,
+      "userid": 3,
+      "graderaw": 4.4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 131,
+      "userid": 3,
+      "graderaw": 4.6,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 132,
+      "userid": 3,
+      "graderaw": 4.4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 133,
+      "userid": 3,
+      "graderaw": 4.6,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 134,
+      "userid": 3,
+      "graderaw": 4.4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 135,
+      "userid": 3,
+      "graderaw": 4.6,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 136,
+      "userid": 3,
+      "graderaw": 4.4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 137,
+      "userid": 3,
+      "graderaw": 4.6,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 138,
+      "userid": 3,
+      "graderaw": 4.4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 144,
+      "userid": 3,
+      "graderaw": 4.4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 145,
+      "userid": 3,
+      "graderaw": 4.6,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 146,
+      "userid": 3,
+      "graderaw": 4.4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 147,
+      "userid": 3,
+      "graderaw": 4.6,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 148,
+      "userid": 3,
+      "graderaw": 4.4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 149,
+      "userid": 3,
+      "graderaw": 4.6,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 150,
+      "userid": 3,
+      "graderaw": 4.4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 151,
+      "userid": 3,
+      "graderaw": 4.6,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 152,
+      "userid": 3,
+      "graderaw": 4.4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 158,
+      "userid": 3,
+      "graderaw": 4.4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 159,
+      "userid": 3,
+      "graderaw": 4.6,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 160,
+      "userid": 3,
+      "graderaw": 4.4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 161,
+      "userid": 3,
+      "graderaw": 4.6,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 162,
+      "userid": 3,
+      "graderaw": 4.4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 163,
+      "userid": 3,
+      "graderaw": 4.6,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 164,
+      "userid": 3,
+      "graderaw": 4.4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 165,
+      "userid": 3,
+      "graderaw": 4.6,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 166,
+      "userid": 3,
+      "graderaw": 4.4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 172,
+      "userid": 3,
+      "graderaw": 4.4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 173,
+      "userid": 3,
+      "graderaw": 4.6,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 174,
+      "userid": 3,
+      "graderaw": 4.4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 175,
+      "userid": 3,
+      "graderaw": 4.6,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 176,
+      "userid": 3,
+      "graderaw": 4.4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 177,
+      "userid": 3,
+      "graderaw": 4.6,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 178,
+      "userid": 3,
+      "graderaw": 4.4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 179,
+      "userid": 3,
+      "graderaw": 4.6,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 180,
+      "userid": 3,
+      "graderaw": 4.4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 186,
+      "userid": 3,
+      "graderaw": 4.4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 187,
+      "userid": 3,
+      "graderaw": 4.6,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 188,
+      "userid": 3,
+      "graderaw": 4.4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 189,
+      "userid": 3,
+      "graderaw": 4.6,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 190,
+      "userid": 3,
+      "graderaw": 4.4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 191,
+      "userid": 3,
+      "graderaw": 4.6,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 192,
+      "userid": 3,
+      "graderaw": 4.4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 193,
+      "userid": 3,
+      "graderaw": 4.6,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 194,
+      "userid": 3,
+      "graderaw": 4.4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 200,
+      "userid": 3,
+      "graderaw": 4.4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 201,
+      "userid": 3,
+      "graderaw": 4.6,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 202,
+      "userid": 3,
+      "graderaw": 4.4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 203,
+      "userid": 3,
+      "graderaw": 4.6,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 204,
+      "userid": 3,
+      "graderaw": 4.4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 205,
+      "userid": 3,
+      "graderaw": 4.6,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 206,
+      "userid": 3,
+      "graderaw": 4.4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 207,
+      "userid": 3,
+      "graderaw": 4.6,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 208,
+      "userid": 3,
+      "graderaw": 4.4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 312,
+      "userid": 3,
+      "graderaw": 4.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 313,
+      "userid": 3,
+      "graderaw": 4.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 314,
+      "userid": 3,
+      "graderaw": 4.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 116,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 117,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 118,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 119,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 120,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 121,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 122,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 123,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 124,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 130,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 131,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 132,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 133,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 134,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 135,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 136,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 137,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 138,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 144,
+      "userid": 4,
+      "graderaw": 1.75,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 145,
+      "userid": 4,
+      "graderaw": 1.75,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 146,
+      "userid": 4,
+      "graderaw": 1.75,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 147,
+      "userid": 4,
+      "graderaw": 1.75,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 148,
+      "userid": 4,
+      "graderaw": 1.75,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 149,
+      "userid": 4,
+      "graderaw": 1.75,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 150,
+      "userid": 4,
+      "graderaw": 1.75,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 151,
+      "userid": 4,
+      "graderaw": 1.75,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 152,
+      "userid": 4,
+      "graderaw": 1.75,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 158,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 159,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 160,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 161,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 162,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 163,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 164,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 165,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 166,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 172,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 173,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 174,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 175,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 176,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 177,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 178,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 179,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 180,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 186,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 187,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 188,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 189,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 190,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 191,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 192,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 193,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 194,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 200,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 201,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 202,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 203,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 204,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 205,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 206,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 207,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 208,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 326,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 327,
+      "userid": 4,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 116,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 117,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 118,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 119,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 120,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 121,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 122,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 123,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 124,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 130,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 131,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 132,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 133,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 134,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 135,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 136,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 137,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 138,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 144,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 145,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 146,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 147,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 148,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 149,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 150,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 151,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 152,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 158,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 159,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 160,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 161,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 162,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 163,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 164,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 165,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 166,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 186,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 187,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 188,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 189,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 190,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 191,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 192,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 193,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 194,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 200,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 201,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 202,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 203,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 204,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 205,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 206,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 207,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 208,
+      "userid": 5,
+      "graderaw": 3.8,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 116,
+      "userid": 6,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 117,
+      "userid": 6,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 118,
+      "userid": 6,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 119,
+      "userid": 6,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 120,
+      "userid": 6,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 121,
+      "userid": 6,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 122,
+      "userid": 6,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 123,
+      "userid": 6,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 124,
+      "userid": 6,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 130,
+      "userid": 6,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 131,
+      "userid": 6,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 132,
+      "userid": 6,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 133,
+      "userid": 6,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 134,
+      "userid": 6,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 135,
+      "userid": 6,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 136,
+      "userid": 6,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 137,
+      "userid": 6,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 138,
+      "userid": 6,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 144,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 145,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 146,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 147,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 148,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 149,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 150,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 151,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 152,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 158,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 159,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 160,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 161,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 162,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 163,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 164,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 165,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 166,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 172,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 173,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 174,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 175,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 176,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 177,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 178,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 179,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 180,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 186,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 187,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 188,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 189,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 190,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 191,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 192,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 193,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 194,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 200,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 201,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 202,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 203,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 204,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 205,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 206,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 207,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 208,
+      "userid": 6,
+      "graderaw": 2.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 116,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 117,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 118,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 119,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 120,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 121,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 122,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 123,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 124,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 130,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 131,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 132,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 133,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 134,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 135,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 136,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 137,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 138,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 144,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 145,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 146,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 147,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 148,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 149,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 150,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 151,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 152,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 158,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 159,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 160,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 161,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 162,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 163,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 164,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 165,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 166,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 172,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 173,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 174,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 175,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 176,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 177,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 178,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 179,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 180,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 200,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 201,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 202,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 203,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 204,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 205,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 206,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 207,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 208,
+      "userid": 7,
+      "graderaw": 4.2,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 116,
+      "userid": 1320,
+      "graderaw": 4.25,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 117,
+      "userid": 1320,
+      "graderaw": 4.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 118,
+      "userid": 1320,
+      "graderaw": 4.25,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 119,
+      "userid": 1320,
+      "graderaw": 4.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 120,
+      "userid": 1320,
+      "graderaw": 4.25,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 121,
+      "userid": 1320,
+      "graderaw": 4.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 122,
+      "userid": 1320,
+      "graderaw": 4.25,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 123,
+      "userid": 1320,
+      "graderaw": 4.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 124,
+      "userid": 1320,
+      "graderaw": 4.25,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 130,
+      "userid": 1320,
+      "graderaw": 4.25,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 131,
+      "userid": 1320,
+      "graderaw": 4.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 132,
+      "userid": 1320,
+      "graderaw": 4.25,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 133,
+      "userid": 1320,
+      "graderaw": 4.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 134,
+      "userid": 1320,
+      "graderaw": 4.25,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 135,
+      "userid": 1320,
+      "graderaw": 4.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 136,
+      "userid": 1320,
+      "graderaw": 4.25,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 137,
+      "userid": 1320,
+      "graderaw": 4.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 138,
+      "userid": 1320,
+      "graderaw": 4.25,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 144,
+      "userid": 1320,
+      "graderaw": 4.25,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 145,
+      "userid": 1320,
+      "graderaw": 4.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 146,
+      "userid": 1320,
+      "graderaw": 4.25,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 147,
+      "userid": 1320,
+      "graderaw": 4.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 148,
+      "userid": 1320,
+      "graderaw": 4.25,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 149,
+      "userid": 1320,
+      "graderaw": 4.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 150,
+      "userid": 1320,
+      "graderaw": 4.25,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 151,
+      "userid": 1320,
+      "graderaw": 4.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 152,
+      "userid": 1320,
+      "graderaw": 4.25,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 158,
+      "userid": 1320,
+      "graderaw": 4.25,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 159,
+      "userid": 1320,
+      "graderaw": 4.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 160,
+      "userid": 1320,
+      "graderaw": 4.25,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 161,
+      "userid": 1320,
+      "graderaw": 4.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 162,
+      "userid": 1320,
+      "graderaw": 4.25,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 163,
+      "userid": 1320,
+      "graderaw": 4.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 164,
+      "userid": 1320,
+      "graderaw": 4.25,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 165,
+      "userid": 1320,
+      "graderaw": 4.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 166,
+      "userid": 1320,
+      "graderaw": 4.25,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 172,
+      "userid": 1320,
+      "graderaw": 4.25,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 173,
+      "userid": 1320,
+      "graderaw": 4.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 174,
+      "userid": 1320,
+      "graderaw": 4.25,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 175,
+      "userid": 1320,
+      "graderaw": 4.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 176,
+      "userid": 1320,
+      "graderaw": 4.25,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 177,
+      "userid": 1320,
+      "graderaw": 4.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 178,
+      "userid": 1320,
+      "graderaw": 4.25,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 179,
+      "userid": 1320,
+      "graderaw": 4.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 180,
+      "userid": 1320,
+      "graderaw": 4.25,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 186,
+      "userid": 1320,
+      "graderaw": 4.25,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 187,
+      "userid": 1320,
+      "graderaw": 4.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 188,
+      "userid": 1320,
+      "graderaw": 4.25,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 189,
+      "userid": 1320,
+      "graderaw": 4.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 190,
+      "userid": 1320,
+      "graderaw": 4.25,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 191,
+      "userid": 1320,
+      "graderaw": 4.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 192,
+      "userid": 1320,
+      "graderaw": 4.25,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 193,
+      "userid": 1320,
+      "graderaw": 4.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 194,
+      "userid": 1320,
+      "graderaw": 4.25,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 116,
+      "userid": 1297,
+      "graderaw": 3.9,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 117,
+      "userid": 1297,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 118,
+      "userid": 1297,
+      "graderaw": 3.9,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 119,
+      "userid": 1297,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 120,
+      "userid": 1297,
+      "graderaw": 3.9,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 121,
+      "userid": 1297,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 122,
+      "userid": 1297,
+      "graderaw": 3.9,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 123,
+      "userid": 1297,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 124,
+      "userid": 1297,
+      "graderaw": 3.9,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 130,
+      "userid": 1297,
+      "graderaw": 3.9,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 131,
+      "userid": 1297,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 132,
+      "userid": 1297,
+      "graderaw": 3.9,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 133,
+      "userid": 1297,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 134,
+      "userid": 1297,
+      "graderaw": 3.9,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 135,
+      "userid": 1297,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 136,
+      "userid": 1297,
+      "graderaw": 3.9,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 137,
+      "userid": 1297,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 138,
+      "userid": 1297,
+      "graderaw": 3.9,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 144,
+      "userid": 1297,
+      "graderaw": 3.9,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 145,
+      "userid": 1297,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 146,
+      "userid": 1297,
+      "graderaw": 3.9,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 147,
+      "userid": 1297,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 148,
+      "userid": 1297,
+      "graderaw": 3.9,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 149,
+      "userid": 1297,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 150,
+      "userid": 1297,
+      "graderaw": 3.9,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 151,
+      "userid": 1297,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 152,
+      "userid": 1297,
+      "graderaw": 3.9,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 158,
+      "userid": 1297,
+      "graderaw": 3.9,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 159,
+      "userid": 1297,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 160,
+      "userid": 1297,
+      "graderaw": 3.9,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 161,
+      "userid": 1297,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 162,
+      "userid": 1297,
+      "graderaw": 3.9,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 163,
+      "userid": 1297,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 164,
+      "userid": 1297,
+      "graderaw": 3.9,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 165,
+      "userid": 1297,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 166,
+      "userid": 1297,
+      "graderaw": 3.9,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 172,
+      "userid": 1297,
+      "graderaw": 3.9,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 173,
+      "userid": 1297,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 174,
+      "userid": 1297,
+      "graderaw": 3.9,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 175,
+      "userid": 1297,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 176,
+      "userid": 1297,
+      "graderaw": 3.9,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 177,
+      "userid": 1297,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 178,
+      "userid": 1297,
+      "graderaw": 3.9,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 179,
+      "userid": 1297,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 180,
+      "userid": 1297,
+      "graderaw": 3.9,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 186,
+      "userid": 1297,
+      "graderaw": 3.9,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 187,
+      "userid": 1297,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 188,
+      "userid": 1297,
+      "graderaw": 3.9,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 189,
+      "userid": 1297,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 190,
+      "userid": 1297,
+      "graderaw": 3.9,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 191,
+      "userid": 1297,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 192,
+      "userid": 1297,
+      "graderaw": 3.9,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 193,
+      "userid": 1297,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 194,
+      "userid": 1297,
+      "graderaw": 3.9,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 338,
+      "userid": 8,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 339,
+      "userid": 8,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 340,
+      "userid": 8,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 342,
+      "userid": 8,
+      "graderaw": 3.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 343,
+      "userid": 8,
+      "graderaw": 3.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 344,
+      "userid": 8,
+      "graderaw": 3.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 346,
+      "userid": 8,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 347,
+      "userid": 8,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 348,
+      "userid": 8,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 350,
+      "userid": 8,
+      "graderaw": 3.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 351,
+      "userid": 8,
+      "graderaw": 3.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 352,
+      "userid": 8,
+      "graderaw": 3.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 354,
+      "userid": 1321,
+      "graderaw": 3.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 355,
+      "userid": 1321,
+      "graderaw": 3.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 356,
+      "userid": 1321,
+      "graderaw": 3.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 130,
+      "userid": 1460,
+      "graderaw": 4,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 131,
+      "userid": 1460,
+      "graderaw": 4.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 132,
+      "userid": 1460,
+      "graderaw": 5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 133,
+      "userid": 1460,
+      "graderaw": 4.5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 134,
+      "userid": 1460,
+      "graderaw": 5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 135,
+      "userid": 1460,
+      "graderaw": 5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 136,
+      "userid": 1460,
+      "graderaw": 4.64286,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 137,
+      "userid": 1460,
+      "graderaw": 5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 138,
+      "userid": 1460,
+      "graderaw": 5,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 129,
+      "userid": 1460,
+      "graderaw": 4.32321,
+      "overridden": true,
+      "timemodified": 1727000000
+    }
+  ]
+}

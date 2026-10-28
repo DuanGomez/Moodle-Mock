@@ -1,0 +1,6 @@
+node_modules/
+data/
+# Datos privados del entorno local (ids externos y usuarios reales): nunca se versionan
+seed.private.json
+seed.local.json
+.env

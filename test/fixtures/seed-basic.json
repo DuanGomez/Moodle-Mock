@@ -1,0 +1,1164 @@
+{
+  "seq": {
+    "user": 7,
+    "category": 2,
+    "course": 8,
+    "gradeitem": 21
+  },
+  "users": [
+    {
+      "id": 1,
+      "username": "guest",
+      "password": "Test1234!",
+      "firstname": "Guest user",
+      "lastname": " ",
+      "email": "root@localhost",
+      "idnumber": "",
+      "auth": "manual",
+      "suspended": 0,
+      "timecreated": 1727000000,
+      "extra": {}
+    },
+    {
+      "id": 2,
+      "username": "admin",
+      "password": "Test1234!",
+      "firstname": "Admin",
+      "lastname": "Usuario",
+      "email": "admin@test.local",
+      "idnumber": "",
+      "auth": "manual",
+      "suspended": 0,
+      "timecreated": 1727000000,
+      "extra": {}
+    },
+    {
+      "id": 3,
+      "username": "est1",
+      "password": "Test1234!",
+      "firstname": "Ana",
+      "lastname": "Gómez",
+      "email": "est1@test.local",
+      "idnumber": "EST-001",
+      "auth": "manual",
+      "suspended": 0,
+      "timecreated": 1727000000,
+      "extra": {}
+    },
+    {
+      "id": 4,
+      "username": "est2",
+      "password": "Test1234!",
+      "firstname": "Bruno",
+      "lastname": "Martínez",
+      "email": "est2@test.local",
+      "idnumber": "EST-002",
+      "auth": "manual",
+      "suspended": 0,
+      "timecreated": 1727000000,
+      "extra": {}
+    },
+    {
+      "id": 5,
+      "username": "est3",
+      "password": "Test1234!",
+      "firstname": "Carla",
+      "lastname": "Rodríguez",
+      "email": "est3@test.local",
+      "idnumber": "EST-003",
+      "auth": "manual",
+      "suspended": 0,
+      "timecreated": 1727000000,
+      "extra": {}
+    },
+    {
+      "id": 6,
+      "username": "est4",
+      "password": "Test1234!",
+      "firstname": "Diego",
+      "lastname": "López",
+      "email": "est4@test.local",
+      "idnumber": "EST-004",
+      "auth": "manual",
+      "suspended": 0,
+      "timecreated": 1727000000,
+      "extra": {}
+    },
+    {
+      "id": 7,
+      "username": "est5",
+      "password": "Test1234!",
+      "firstname": "Elena",
+      "lastname": "Pérez",
+      "email": "est5@test.local",
+      "idnumber": "EST-005",
+      "auth": "manual",
+      "suspended": 0,
+      "timecreated": 1727000000,
+      "extra": {}
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Miscellaneous",
+      "parent": 0,
+      "idnumber": "",
+      "description": "",
+      "visible": 1,
+      "timemodified": 1727000000
+    },
+    {
+      "id": 2,
+      "name": "Programa de Entrenadores (demo)",
+      "parent": 0,
+      "idnumber": "EXT-PROG-FE",
+      "description": "Programa de formación de entrenadores (un curso Moodle por módulo).",
+      "visible": 1,
+      "timemodified": 1727000000
+    }
+  ],
+  "courses": [
+    {
+      "id": 2,
+      "fullname": "MODULO 1. PREPARACIÓN TÉCNICA",
+      "shortname": "FE-M1",
+      "categoryid": 2,
+      "idnumber": "EXT-MOD-01",
+      "summary": "Módulo 1 del Programa de Entrenadores (demo).",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000
+    },
+    {
+      "id": 3,
+      "fullname": "MODULO 2. PREPARACIÓN FÍSICA",
+      "shortname": "FE-M2",
+      "categoryid": 2,
+      "idnumber": "EXT-MOD-02",
+      "summary": "Módulo 2 del Programa de Entrenadores (demo).",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000
+    },
+    {
+      "id": 4,
+      "fullname": "MODULO 3. PREPARACIÓN TÁCTICA",
+      "shortname": "FE-M3",
+      "categoryid": 2,
+      "idnumber": "EXT-MOD-03",
+      "summary": "Módulo 3 del Programa de Entrenadores (demo).",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000
+    },
+    {
+      "id": 5,
+      "fullname": "MODULO 4. PREPARACIÓN ESPECÍFICA",
+      "shortname": "FE-M4",
+      "categoryid": 2,
+      "idnumber": "EXT-MOD-04",
+      "summary": "Módulo 4 del Programa de Entrenadores (demo).",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000
+    },
+    {
+      "id": 6,
+      "fullname": "MODULO 5. PREPARACIÓN ESTRATÉGICA",
+      "shortname": "FE-M5",
+      "categoryid": 2,
+      "idnumber": "EXT-MOD-05",
+      "summary": "Módulo 5 del Programa de Entrenadores (demo).",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000
+    },
+    {
+      "id": 7,
+      "fullname": "MODULO 6. PREPARACIÓN PSICOLÓGICA",
+      "shortname": "FE-M6",
+      "categoryid": 2,
+      "idnumber": "EXT-MOD-06",
+      "summary": "Módulo 6 del Programa de Entrenadores (demo).",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000
+    },
+    {
+      "id": 8,
+      "fullname": "CURSO DE ARBITRAJE BÁSICO",
+      "shortname": "ARB-BASICO",
+      "categoryid": 1,
+      "idnumber": "EXT-CURSO-ARB-01",
+      "summary": "Curso independiente de un solo módulo.",
+      "visible": 1,
+      "format": "topics",
+      "startdate": 1727000000,
+      "enddate": 0,
+      "timecreated": 1727000000,
+      "timemodified": 1727000000
+    }
+  ],
+  "enrolments": [
+    {
+      "userid": 3,
+      "courseid": 2,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 3,
+      "courseid": 3,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 3,
+      "courseid": 4,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 3,
+      "courseid": 5,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 3,
+      "courseid": 6,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 3,
+      "courseid": 7,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 3,
+      "courseid": 8,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 4,
+      "courseid": 2,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 4,
+      "courseid": 3,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 4,
+      "courseid": 4,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 4,
+      "courseid": 5,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 4,
+      "courseid": 6,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 4,
+      "courseid": 7,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 5,
+      "courseid": 2,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 5,
+      "courseid": 3,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 5,
+      "courseid": 4,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 5,
+      "courseid": 5,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 5,
+      "courseid": 6,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 5,
+      "courseid": 7,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 6,
+      "courseid": 2,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 6,
+      "courseid": 3,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 6,
+      "courseid": 4,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 6,
+      "courseid": 5,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 6,
+      "courseid": 6,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 6,
+      "courseid": 7,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 7,
+      "courseid": 2,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 7,
+      "courseid": 3,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 7,
+      "courseid": 4,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 7,
+      "courseid": 5,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 7,
+      "courseid": 6,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    },
+    {
+      "userid": 7,
+      "courseid": 8,
+      "roleid": 5,
+      "timestart": 0,
+      "timeend": 0,
+      "suspend": 0,
+      "timecreated": 1727000000
+    }
+  ],
+  "gradeitems": [
+    {
+      "id": 1,
+      "courseid": 2,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 2,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 2,
+      "courseid": 2,
+      "itemname": "Cuestionario Módulo 1",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 2,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 2
+    },
+    {
+      "id": 3,
+      "courseid": 2,
+      "itemname": "Tarea Módulo 1",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 3,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 3
+    },
+    {
+      "id": 4,
+      "courseid": 3,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 3,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 5,
+      "courseid": 3,
+      "itemname": "Cuestionario Módulo 2",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 5,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 2
+    },
+    {
+      "id": 6,
+      "courseid": 3,
+      "itemname": "Tarea Módulo 2",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 6,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 3
+    },
+    {
+      "id": 7,
+      "courseid": 4,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 4,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 8,
+      "courseid": 4,
+      "itemname": "Cuestionario Módulo 3",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 8,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 2
+    },
+    {
+      "id": 9,
+      "courseid": 4,
+      "itemname": "Tarea Módulo 3",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 9,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 3
+    },
+    {
+      "id": 10,
+      "courseid": 5,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 5,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 11,
+      "courseid": 5,
+      "itemname": "Cuestionario Módulo 4",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 11,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 2
+    },
+    {
+      "id": 12,
+      "courseid": 5,
+      "itemname": "Tarea Módulo 4",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 12,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 3
+    },
+    {
+      "id": 13,
+      "courseid": 6,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 6,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 14,
+      "courseid": 6,
+      "itemname": "Cuestionario Módulo 5",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 14,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 2
+    },
+    {
+      "id": 15,
+      "courseid": 6,
+      "itemname": "Tarea Módulo 5",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 15,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 3
+    },
+    {
+      "id": 16,
+      "courseid": 7,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 7,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 17,
+      "courseid": 7,
+      "itemname": "Cuestionario Módulo 6",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 17,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 2
+    },
+    {
+      "id": 18,
+      "courseid": 7,
+      "itemname": "Tarea Módulo 6",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 18,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 3
+    },
+    {
+      "id": 19,
+      "courseid": 8,
+      "itemname": null,
+      "itemtype": "course",
+      "itemmodule": null,
+      "iteminstance": 8,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 1
+    },
+    {
+      "id": 20,
+      "courseid": 8,
+      "itemname": "Cuestionario final",
+      "itemtype": "mod",
+      "itemmodule": "quiz",
+      "iteminstance": 20,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 2
+    },
+    {
+      "id": 21,
+      "courseid": 8,
+      "itemname": "Tarea práctica",
+      "itemtype": "mod",
+      "itemmodule": "assign",
+      "iteminstance": 21,
+      "idnumber": "",
+      "grademin": 0,
+      "grademax": 100,
+      "sortorder": 3
+    }
+  ],
+  "grades": [
+    {
+      "itemid": 2,
+      "userid": 3,
+      "graderaw": 90,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 3,
+      "userid": 3,
+      "graderaw": 85,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 5,
+      "userid": 3,
+      "graderaw": 80,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 6,
+      "userid": 3,
+      "graderaw": 88,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 8,
+      "userid": 3,
+      "graderaw": 95,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 9,
+      "userid": 3,
+      "graderaw": 90,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 11,
+      "userid": 3,
+      "graderaw": 78,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 12,
+      "userid": 3,
+      "graderaw": 82,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 14,
+      "userid": 3,
+      "graderaw": 85,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 15,
+      "userid": 3,
+      "graderaw": 80,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 17,
+      "userid": 3,
+      "graderaw": 92,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 18,
+      "userid": 3,
+      "graderaw": 94,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 20,
+      "userid": 3,
+      "graderaw": 88,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 21,
+      "userid": 3,
+      "graderaw": 92,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 2,
+      "userid": 4,
+      "graderaw": 80,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 3,
+      "userid": 4,
+      "graderaw": 75,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 5,
+      "userid": 4,
+      "graderaw": 85,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 6,
+      "userid": 4,
+      "graderaw": 90,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 8,
+      "userid": 4,
+      "graderaw": 40,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 9,
+      "userid": 4,
+      "graderaw": 30,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 11,
+      "userid": 4,
+      "graderaw": 78,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 12,
+      "userid": 4,
+      "graderaw": 80,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 14,
+      "userid": 4,
+      "graderaw": 88,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 15,
+      "userid": 4,
+      "graderaw": 84,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 17,
+      "userid": 4,
+      "graderaw": 75,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 18,
+      "userid": 4,
+      "graderaw": 79,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 2,
+      "userid": 5,
+      "graderaw": 85,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 3,
+      "userid": 5,
+      "graderaw": 90,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 5,
+      "userid": 5,
+      "graderaw": 78,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 6,
+      "userid": 5,
+      "graderaw": 82,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 8,
+      "userid": 5,
+      "graderaw": 90,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 9,
+      "userid": 5,
+      "graderaw": 88,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 11,
+      "userid": 5,
+      "graderaw": 80,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 12,
+      "userid": 5,
+      "graderaw": 76,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 17,
+      "userid": 5,
+      "graderaw": 84,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 18,
+      "userid": 5,
+      "graderaw": 86,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 2,
+      "userid": 6,
+      "graderaw": 82,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 3,
+      "userid": 6,
+      "graderaw": 78,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 5,
+      "userid": 6,
+      "graderaw": 76,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 6,
+      "userid": 6,
+      "graderaw": 80,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 8,
+      "userid": 6,
+      "graderaw": 45,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 9,
+      "userid": 6,
+      "graderaw": 50,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 11,
+      "userid": 6,
+      "graderaw": 30,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 12,
+      "userid": 6,
+      "graderaw": 40,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 14,
+      "userid": 6,
+      "graderaw": 50,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 15,
+      "userid": 6,
+      "graderaw": 35,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 17,
+      "userid": 6,
+      "graderaw": 20,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 18,
+      "userid": 6,
+      "graderaw": 45,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 2,
+      "userid": 7,
+      "graderaw": 88,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 3,
+      "userid": 7,
+      "graderaw": 84,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 5,
+      "userid": 7,
+      "graderaw": 79,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 6,
+      "userid": 7,
+      "graderaw": 81,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 8,
+      "userid": 7,
+      "graderaw": 86,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 9,
+      "userid": 7,
+      "graderaw": 90,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 11,
+      "userid": 7,
+      "graderaw": 92,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 12,
+      "userid": 7,
+      "graderaw": 88,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 14,
+      "userid": 7,
+      "graderaw": 80,
+      "overridden": false,
+      "timemodified": 1727000000
+    },
+    {
+      "itemid": 15,
+      "userid": 7,
+      "graderaw": 85,
+      "overridden": false,
+      "timemodified": 1727000000
+    }
+  ]
+}

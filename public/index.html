@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Moodle Mock · Panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="brand">Moodle <span>mock</span></div>
+    <nav id="tabs">
+      <button data-tab="categories">Categorías</button>
+      <button data-tab="courses">Cursos</button>
+      <button data-tab="users">Usuarios</button>
+      <button data-tab="enrolments">Inscripciones</button>
+      <button data-tab="grades">Notas</button>
+      <button data-tab="log">Log de llamadas</button>
+    </nav>
+    <button id="reset" class="danger" title="Vuelve a los datos semilla">Reset al seed</button>
+  </header>
+
+  <main>
+    <!-- Categorías -->
+    <section id="tab-categories" class="tab">
+      <div class="grid2">
+        <div>
+          <h2>Categorías</h2>
+          <table><thead><tr><th>ID</th><th>Nombre</th><th>Padre</th><th>idnumber</th><th>Cursos</th><th></th></tr></thead><tbody id="cat-rows"></tbody></table>
+        </div>
+        <form id="cat-form" class="card">
+          <h3 id="cat-form-title">Nueva categoría</h3>
+          <input type="hidden" name="id">
+          <label>Nombre <input name="name" required></label>
+          <label>Padre <select name="parent"></select></label>
+          <label>idnumber <input name="idnumber"></label>
+          <label>Descripción <textarea name="description" rows="2"></textarea></label>
+          <div class="row"><button type="submit">Guardar</button><button type="button" class="secondary" data-cancel>Cancelar</button></div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Cursos -->
+    <section id="tab-courses" class="tab">
+      <div class="grid2">
+        <div>
+          <h2>Cursos</h2>
+          <table><thead><tr><th>ID</th><th>Nombre</th><th>shortname</th><th>idnumber</th><th>Categoría</th><th>Visible</th><th></th></tr></thead><tbody id="course-rows"></tbody></table>
+        </div>
+        <form id="course-form" class="card">
+          <h3 id="course-form-title">Nuevo curso</h3>
+          <input type="hidden" name="id">
+          <label>Nombre completo <input name="fullname" required></label>
+          <label>shortname <input name="shortname" required></label>
+          <label>idnumber <small>(id externo del curso)</small> <input name="idnumber"></label>
+          <label>Categoría <select name="categoryid"></select></label>
+          <label>Resumen <textarea name="summary" rows="2"></textarea></label>
+          <label class="inline"><input type="checkbox" name="visible" checked> Visible</label>
+          <div class="row"><button type="submit">Guardar</button><button type="button" class="secondary" data-cancel>Cancelar</button></div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Usuarios -->
+    <section id="tab-users" class="tab">
+      <div class="grid2">
+        <div>
+          <h2>Usuarios</h2>
+          <table><thead><tr><th>ID</th><th>username</th><th>Nombre</th><th>Email</th><th>idnumber</th><th>Cursos</th><th></th></tr></thead><tbody id="user-rows"></tbody></table>
+        </div>
+        <form id="user-form" class="card">
+          <h3 id="user-form-title">Nuevo usuario</h3>
+          <input type="hidden" name="id">
+          <label>username <input name="username" required pattern="[a-z0-9_.@\-]+" title="minúsculas, números, _ . @ -"></label>
+          <label>Nombre <input name="firstname" required></label>
+          <label>Apellido <input name="lastname" required></label>
+          <label>Email <input name="email" type="email" required></label>
+          <label>idnumber <input name="idnumber"></label>
+          <label>Contraseña <input name="password" placeholder="(por defecto Test1234!)"></label>
+          <div class="row"><button type="submit">Guardar</button><button type="button" class="secondary" data-cancel>Cancelar</button></div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Inscripciones -->
+    <section id="tab-enrolments" class="tab">
+      <h2>Inscripciones <small>(marca = matriculado como estudiante)</small></h2>
+      <label class="inline">Filtrar por categoría <select id="enrol-cat"></select></label>
+      <div class="scroll"><table id="enrol-matrix"></table></div>
+    </section>
+
+    <!-- Notas -->
+    <section id="tab-grades" class="tab">
+      <h2>Notas</h2>
+      <div class="row">
+        <label class="inline">Curso <select id="grade-course"></select></label>
+      </div>
+      <p class="hint">Edita una celda y sal de ella (Tab/Enter) para guardar. Deja vacío para borrar la nota.
+        El <b>total</b> se calcula como suma ponderada de los ítems calificados; si lo escribes queda como <i>override</i>.</p>
+      <div class="scroll"><table id="grade-table"></table></div>
+      <form id="item-form" class="card row">
+        <b>Agregar ítem:</b>
+        <input name="itemname" placeholder="Nombre (p. ej. Quiz 2)" required>
+        <select name="itemmodule"><option value="quiz">quiz</option><option value="assign">assign</option><option value="forum">forum</option><option value="lesson">lesson</option></select>
+        <label class="inline">grademax <input name="grademax" type="number" value="100" min="1" step="any" style="width:5em"></label>
+        <button type="submit">Agregar</button>
+      </form>
+    </section>
+
+    <!-- Log -->
+    <section id="tab-log" class="tab">
+      <h2>Log de llamadas <small>(últimas 200)</small></h2>
+      <div class="row">
+        <button id="log-refresh">Refrescar</button>
+        <label class="inline"><input type="checkbox" id="log-auto" checked> Auto-refrescar (2 s)</label>
+        <label class="inline"><input type="checkbox" id="log-errors"> Solo errores</label>
+        <button id="log-clear" class="danger">Vaciar log</button>
+      </div>
+      <table><thead><tr><th>Hora</th><th>Método</th><th>wsfunction</th><th>Parámetros</th><th>Respuesta</th><th>ms</th></tr></thead><tbody id="log-rows"></tbody></table>
+    </section>
+  </main>
+
+  <div id="toast"></div>
+  <script src="app.js"></script>
+</body>
+</html>
